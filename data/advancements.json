@@ -1,0 +1,764 @@
+[
+  {
+    "inventory": {
+      "cellX": "0",
+      "cellY": "0",
+      "itemId": "book",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "open_advance_ui",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "wood": {
+      "cellX": "2",
+      "cellY": "1",
+      "itemId": "wood_oak",
+      "parentId": "inventory",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_WOOD"
+        }
+      }
+    }
+  },
+  {
+    "crafting_table": {
+      "cellX": "4",
+      "cellY": "-1",
+      "itemId": "crafting_table",
+      "parentId": "wood",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "crafting_table"
+        }
+      }
+    }
+  },
+  {
+    "farm": {
+      "cellX": "2",
+      "cellY": "-3",
+      "itemId": "stone_hoe",
+      "parentId": "crafting_table",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_HOE"
+        }
+      }
+    }
+  },
+  {
+    "bread": {
+      "cellX": "-2",
+      "cellY": "-3",
+      "itemId": "bread",
+      "parentId": "farm",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "bread"
+        }
+      }
+    }
+  },
+  {
+    "cake": {
+      "cellX": "0",
+      "cellY": "-5",
+      "itemId": "cake",
+      "parentId": "farm",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "cake"
+        }
+      }
+    }
+  },
+  {
+    "pumpkin_helmet": {
+      "cellX": "2",
+      "cellY": "-6",
+      "itemId": "pumpkin_helmet",
+      "parentId": "farm",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "pumpkin_helmet"
+        }
+      }
+    }
+  },
+  {
+    "bow": {
+      "cellX": "4",
+      "cellY": "-4",
+      "itemId": "wooden_bow",
+      "parentId": "crafting_table",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "wooden_bow"
+        }
+      }
+    }
+  },
+  {
+    "crossbow": {
+      "cellX": "4",
+      "cellY": "-6",
+      "itemId": "cross_bow",
+      "parentId": "bow",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_CROSS_BOW"
+        }
+      }
+    }
+  },
+  {
+    "sword": {
+      "cellX": "6",
+      "cellY": "-1",
+      "itemId": "wooden_sword",
+      "parentId": "crafting_table",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_SWORD"
+        }
+      }
+    }
+  },
+  {
+    "leather": {
+      "cellX": "8",
+      "cellY": "-3",
+      "itemId": "leather",
+      "parentId": "sword",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "leather"
+        }
+      }
+    }
+  },
+  {
+    "hunter": {
+      "cellX": "8",
+      "cellY": "-1",
+      "itemId": "bone",
+      "parentId": "sword",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "kill_enemy",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "staff": {
+      "cellX": "10",
+      "cellY": "-3",
+      "itemId": "amethyst_staff",
+      "parentId": "hunter",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_STAFF"
+        }
+      }
+    }
+  },
+  {
+    "magic_limit": {
+      "cellX": "8",
+      "cellY": "-5",
+      "itemId": "mana_piece",
+      "parentId": "staff",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "magic_limit_up",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "ender_pearl": {
+      "cellX": "10",
+      "cellY": "1",
+      "itemId": "ender_pearl",
+      "parentId": "hunter",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "ender_pearl"
+        }
+      }
+    }
+  },
+  {
+    "open_portal": {
+      "cellX": "10",
+      "cellY": "3",
+      "itemId": "nature_portal",
+      "parentId": "ender_pearl",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "open_portal",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "mine": {
+      "cellX": "4",
+      "cellY": "2",
+      "itemId": "wooden_pickaxe",
+      "parentId": "crafting_table",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "wooden_pickaxe"
+        }
+      }
+    }
+  },
+  {
+    "stone": {
+      "cellX": "4",
+      "cellY": "4",
+      "itemId": "stone_brick",
+      "parentId": "mine",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "cobblestone"
+        }
+      }
+    }
+  },
+  {
+    "mine_up": {
+      "cellX": "6",
+      "cellY": "2",
+      "itemId": "stone_pickaxe",
+      "parentId": "stone",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "stone_pickaxe"
+        }
+      }
+    }
+  },
+  {
+    "furnace": {
+      "cellX": "2",
+      "cellY": "6",
+      "itemId": "furnace",
+      "parentId": "stone",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "furnace"
+        }
+      }
+    }
+  },
+  {
+    "redstone": {
+      "cellX": "6",
+      "cellY": "6",
+      "itemId": "redstone",
+      "parentId": "stone",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "redstone"
+        }
+      }
+    }
+  },
+  {
+    "redstone_wire": {
+      "cellX": "8",
+      "cellY": "6",
+      "itemId": "red_wire",
+      "parentId": "redstone",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "red_wire"
+        }
+      }
+    }
+  },
+  {
+    "dispenser": {
+      "cellX": "8",
+      "cellY": "8",
+      "itemId": "dispenser",
+      "parentId": "redstone_wire",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "dispenser"
+        }
+      }
+    }
+  },
+  {
+    "iron": {
+      "cellX": "0",
+      "cellY": "6",
+      "itemId": "iron_ingot",
+      "parentId": "furnace",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_INGOT"
+        }
+      }
+    }
+  },
+  {
+    "steel": {
+      "cellX": "-2",
+      "cellY": "4",
+      "itemId": "steel_ingot",
+      "parentId": "iron",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "steel_ingot"
+        }
+      }
+    }
+  },
+  {
+    "bronze": {
+      "cellX": "-4",
+      "cellY": "4",
+      "itemId": "bronze_ingot",
+      "parentId": "iron",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "bronze_ingot"
+        }
+      }
+    }
+  },
+  {
+    "lava": {
+      "cellX": "2",
+      "cellY": "8",
+      "itemId": "bucket_lava",
+      "parentId": "iron",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "bucket_lava"
+        }
+      }
+    }
+  },
+  {
+    "diamond": {
+      "cellX": "-2",
+      "cellY": "8",
+      "itemId": "diamond",
+      "parentId": "iron",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "diamond"
+        }
+      }
+    }
+  },
+  {
+    "diamond_wear": {
+      "cellX": "-4",
+      "cellY": "10",
+      "itemId": "diamond_chestplate",
+      "parentId": "diamond",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_sub_group",
+        "conditions": {
+          "subGroup": "SUB_GROUP_DIAMOND"
+        }
+      }
+    }
+  },
+  {
+    "enchant": {
+      "cellX": "-6",
+      "cellY": "10",
+      "itemId": "enchantment_table",
+      "parentId": "diamond",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "enchantment_table"
+        }
+      }
+    }
+  },
+  {
+    "bookcase": {
+      "cellX": "-6",
+      "cellY": "12",
+      "itemId": "bookcase_spruce",
+      "parentId": "enchant",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_BOOKCASE"
+        }
+      }
+    }
+  },
+  {
+    "nether": {
+      "cellX": "-2",
+      "cellY": "12",
+      "itemId": "soul_sand",
+      "parentId": "diamond",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "go_nether_boime",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "blaze_rod": {
+      "cellX": "0",
+      "cellY": "10",
+      "itemId": "blaze_rod",
+      "parentId": "nether",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "blaze_rod"
+        }
+      }
+    }
+  },
+  {
+    "brew": {
+      "cellX": "2",
+      "cellY": "10",
+      "itemId": "brewing_stand",
+      "parentId": "blaze_rod",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "brewing_stand"
+        }
+      }
+    }
+  },
+  {
+    "ghast": {
+      "cellX": "-4",
+      "cellY": "12",
+      "itemId": "ghast_tear",
+      "parentId": "nether",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "kill_target_npc",
+        "conditions": {
+          "npcId": "ghast"
+        }
+      }
+    }
+  },
+  {
+    "netherite": {
+      "cellX": "0",
+      "cellY": "14",
+      "itemId": "ore_ancient_debris",
+      "parentId": "nether",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "ore_ancient_debris"
+        }
+      }
+    }
+  },
+  {
+    "netherite_full_wear": {
+      "cellX": "2",
+      "cellY": "14",
+      "itemId": "nether_helmet",
+      "parentId": "netherite",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "full_wear_sub_group",
+        "conditions": {
+          "subGroup": "SUB_GROUP_NETHERITE"
+        }
+      }
+    }
+  },
+  {
+    "gun": {
+      "cellX": "-4",
+      "cellY": "14",
+      "itemId": "handgun",
+      "parentId": "nether",
+      "parentSide": "RIGHT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item_group",
+        "conditions": {
+          "group": "GROUP_GUN"
+        }
+      }
+    }
+  },
+  {
+    "nether_destroyer": {
+      "cellX": "2",
+      "cellY": "12",
+      "itemId": "nether_altar",
+      "parentId": "nether",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "nether_destroyer_wake",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "nether_destroyer_killed": {
+      "cellX": "4",
+      "cellY": "12",
+      "itemId": "nether_destroyer_loot",
+      "parentId": "nether_destroyer",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "nether_destroyer_killed",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "ender_chest": {
+      "cellX": "12",
+      "cellY": "1",
+      "itemId": "ender_chest",
+      "parentId": "ender_pearl",
+      "parentSide": "LEFT",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "ender_chest"
+        }
+      }
+    }
+  },
+  {
+    "shulker": {
+      "cellX": "12",
+      "cellY": "-3",
+      "itemId": "shulker_shell",
+      "parentId": "hunter",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "kill_target_npc",
+        "conditions": {
+          "npcId": "shulker"
+        }
+      }
+    }
+  },
+  {
+    "shulker_box": {
+      "cellX": "12",
+      "cellY": "-5",
+      "itemId": "shulker_box",
+      "parentId": "shulker",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "get_item",
+        "conditions": {
+          "itemId": "shulker_box"
+        }
+      }
+    }
+  },
+  {
+    "guardian": {
+      "cellX": "14",
+      "cellY": "1",
+      "itemId": "guardian",
+      "parentId": "hunter",
+      "parentSide": "TOP",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "kill_target_npc",
+        "conditions": {
+          "npcId": "guardian"
+        }
+      }
+    }
+  },
+  {
+    "snow_queen": {
+      "cellX": "14",
+      "cellY": "-3",
+      "itemId": "snow_glass_ball",
+      "parentId": "hunter",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "snow_queen_wake",
+        "conditions": {}
+      }
+    }
+  },
+  {
+    "snow_queen_killed": {
+      "cellX": "14",
+      "cellY": "-5",
+      "itemId": "snow_queen_loot",
+      "parentId": "snow_queen",
+      "parentSide": "BOTTOM",
+      "showTip": "1",
+      "broadcase": "1",
+      "trigger": {
+        "name": "snow_queen_killed",
+        "conditions": {}
+      }
+    }
+  }
+]

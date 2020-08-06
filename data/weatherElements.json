@@ -1,0 +1,20 @@
+[
+  {
+    "rain": {
+      "textureData": "assets\\textures\\weather\\rain.png",
+      "pAI": "Rain_AI"
+    }
+  },
+  {
+    "snow": {
+      "textureData": "assets\\textures\\weather\\snow.png",
+      "pAI": "Snow_AI"
+    }
+  },
+  {
+    "flame": {
+      "textureData": "assets\\textures\\weather\\flame.png",
+      "pAI": "Flame_AI"
+    }
+  }
+]

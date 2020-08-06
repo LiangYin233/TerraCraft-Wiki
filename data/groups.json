@@ -1,0 +1,166 @@
+[
+  {
+    "name": "鍏ㄩ儴",
+    "list": []
+  },
+  {
+    "name": "鑷劧",
+    "list": [
+      "GROUP_DIRT",
+      "GROUP_STONE",
+      "GROUP_COBBLESTONE",
+      "GROUP_ANDESITE",
+      "GROUP_DIORITE",
+      "GROUP_GRANITE",
+      "GROUP_PRISMARINE",
+      "GROUP_SAND",
+      "GROUP_RED_SAND",
+      "GROUP_ENDSTONE",
+      "GROUP_NETHER",
+      "GROUP_SNOW",
+      "GROUP_ICE",
+      "GROUP_ICE_COBBLESTONE",
+      "GROUP_MUSHROOM_BLOCK",
+      "GROUP_FLESH",
+      "GROUP_TAINTED",
+      "GROUP_VOLCANO",
+      "GROUP_LOG",
+      "GROUP_ORE",
+      "GROUP_OTHERS_BLOCK"
+    ]
+  },
+  {
+    "name": "瑁呴グ",
+    "list": [
+      "GROUP_STONE_BRICK",
+      "GROUP_ENDSTONE_BRICK",
+      "GROUP_NETHER_BRICK",
+      "GROUP_SNOW_BRICK",
+      "GROUP_ICE_BRICK",
+      "GROUP_GLASS",
+      "GROUP_WOODEN_PLANK",
+      "GROUP_WOODEN_PLATFORM",
+      "GROUP_PLATFORM",
+      "GROUP_WOOD",
+      "GROUP_WOOD_STRIPPED",
+      "GROUP_TERRACOTTA",
+      "GROUP_WOOL",
+      "GROUP_ORE_BLOCK"
+    ]
+  },
+  {
+    "name": "妞嶇墿",
+    "list": [
+      "GROUP_GRASS",
+      "GROUP_FLOWER",
+      "GROUP_LARGE_FLOWER",
+      "GROUP_SAPLING",
+      "GROUP_PUMPKIN",
+      "GROUP_MELON"
+    ]
+  },
+  {
+    "name": "瀹跺叿",
+    "list": [
+      "GROUP_WOODEN_FENCE",
+      "GROUP_STONE_FENCE",
+      "GROUP_NETHER_FENCE",
+      "GROUP_PAINTING",
+      "GROUP_WOODEN_FURNITURE",
+      "GROUP_WOODEN_BED",
+      "GROUP_WOODEN_TABLE",
+      "GROUP_WOODEN_CABINET",
+      "GROUP_WOODEN_CHAIR",
+      "GROUP_BOOKCASE",
+      "GROUP_BENCH",
+      "GROUP_STONE_FURNITURE",
+      "GROUP_OTHERS_FURNITURE",
+      "GROUP_SHULKER_BOX",
+      "GROUP_PRESSURE_PLATE",
+      "GROUP_DOOR",
+      "GROUP_TORCH",
+      "GROUP_LIGHTING",
+      "GROUP_BUTTON",
+      "GROUP_TOWER"
+    ]
+  },
+  {
+    "name": "绾㈢煶",
+    "list": [
+      "GROUP_REDSTONE_WIRE",
+      "GROUP_WIRE_CUTTER"
+    ]
+  },
+  {
+    "name": "椋熺墿",
+    "list": [
+      "GROUP_FOOD"
+    ]
+  },
+  {
+    "name": "宸ュ叿",
+    "list": [
+      "GROUP_BUCKET",
+      "GROUP_AXE",
+      "GROUP_PICKAXE",
+      "GROUP_SHOVEL",
+      "GROUP_HOE",
+      "GROUP_FISHINGROD",
+      "GROUP_SHEARS",
+      "GROUP_LIGHTER",
+      "GROUP_DRILL",
+      "GROUP_SAW",
+      "GROUP_MAP",
+      "GROUP_DROPABLE",
+      "GROUP_BOOK"
+    ]
+  },
+  {
+    "name": "姝﹀櫒",
+    "list": [
+      "GROUP_HELMET",
+      "GROUP_CHESTPLATE",
+      "GROUP_LEGGINGS",
+      "GROUP_SWORD",
+      "GROUP_BOW",
+      "GROUP_CROSS_BOW",
+      "GROUP_GUN",
+      "GROUP_LAUNCHER",
+      "GROUP_ARROW",
+      "GROUP_BULLET",
+      "GROUP_ROCKET",
+      "GROUP_BOMB",
+      "GROUP_STAFF",
+      "GROUP_BOOMERANG",
+      "GROUP_LOOT"
+    ]
+  },
+  {
+    "name": "鑽按",
+    "list": [
+      "GROUP_POTION"
+    ]
+  },
+  {
+    "name": "鏉愭枡",
+    "list": [
+      "GROUP_STICK",
+      "GROUP_MATERIAL",
+      "GROUP_DYE",
+      "GROUP_SEED",
+      "GROUP_MANA"
+    ]
+  },
+  {
+    "name": "鏉傞」",
+    "list": [
+      "GROUP_DIAMOND",
+      "GROUP_EMERALD",
+      "GROUP_LAPIS",
+      "GROUP_QUARTZ",
+      "GROUP_REDSTONE",
+      "GROUP_NUGGET",
+      "GROUP_INGOT"
+    ]
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "absorption": {
+      "textureData": "assets\\textures\\buff\\absorption.png"
+    }
+  },
+  {
+    "blindness": {
+      "textureData": "assets\\textures\\buff\\blindness.png"
+    }
+  },
+  {
+    "fire": {
+      "textureData": "assets\\textures\\buff\\fire.png"
+    }
+  },
+  {
+    "fire_defense": {
+      "textureData": "assets\\textures\\buff\\fire_defense.png"
+    }
+  },
+  {
+    "glowing": {
+      "textureData": "assets\\textures\\buff\\glowing.png"
+    }
+  },
+  {
+    "happiness": {
+      "textureData": "assets\\textures\\buff\\happiness.png"
+    }
+  },
+  {
+    "health_boost": {
+      "textureData": "assets\\textures\\buff\\health_boost.png"
+    }
+  },
+  {
+    "hunger": {
+      "textureData": "assets\\textures\\buff\\hunger.png"
+    }
+  },
+  {
+    "hurt": {
+      "textureData": "assets\\textures\\buff\\hurt.png"
+    }
+  },
+  {
+    "invisibility": {
+      "textureData": "assets\\textures\\buff\\invisibility.png"
+    }
+  },
+  {
+    "jump_boost": {
+      "textureData": "assets\\textures\\buff\\jump_boost.png"
+    }
+  },
+  {
+    "levitation": {
+      "textureData": "assets\\textures\\buff\\levitation.png"
+    }
+  },
+  {
+    "luck": {
+      "textureData": "assets\\textures\\buff\\luck.png"
+    }
+  },
+  {
+    "mining_fatique": {
+      "textureData": "assets\\textures\\buff\\mining_fatique.png"
+    }
+  },
+  {
+    "nausea": {
+      "textureData": "assets\\textures\\buff\\nausea.png"
+    }
+  },
+  {
+    "poison": {
+      "textureData": "assets\\textures\\buff\\poison.png"
+    }
+  },
+  {
+    "regeneration": {
+      "textureData": "assets\\textures\\buff\\regeneration.png"
+    }
+  },
+  {
+    "resistance": {
+      "textureData": "assets\\textures\\buff\\resistance.png"
+    }
+  },
+  {
+    "sadness": {
+      "textureData": "assets\\textures\\buff\\sadness.png"
+    }
+  },
+  {
+    "slow_falling": {
+      "textureData": "assets\\textures\\buff\\slow_falling.png"
+    }
+  },
+  {
+    "slow_mining": {
+      "textureData": "assets\\textures\\buff\\slow_mining.png"
+    }
+  },
+  {
+    "slowness": {
+      "textureData": "assets\\textures\\buff\\slowness.png"
+    }
+  },
+  {
+    "speed": {
+      "textureData": "assets\\textures\\buff\\speed.png"
+    }
+  },
+  {
+    "strength": {
+      "textureData": "assets\\textures\\buff\\strength.png"
+    }
+  },
+  {
+    "vision": {
+      "textureData": "assets\\textures\\buff\\vision.png"
+    }
+  },
+  {
+    "water_breathing": {
+      "textureData": "assets\\textures\\buff\\water_breathing.png"
+    }
+  },
+  {
+    "weak": {
+      "textureData": "assets\\textures\\buff\\weak.png"
+    }
+  },
+  {
+    "wither": {
+      "textureData": "assets\\textures\\buff\\wither.png"
+    }
+  },
+  {
+    "health_cold": {
+      "textureData": "assets\\textures\\buff\\health_cold.png"
+    }
+  }
+]

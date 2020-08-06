@@ -1,0 +1,1522 @@
+[
+  {
+    "smoke": {
+      "textureData": "assets\\textures\\effect\\smoke.png",
+      "width": "32",
+      "height": "32",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "3",
+      "frameSpeed": "-1",
+      "disappearTime": "120",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "flame_star": {
+      "textureData": "assets\\textures\\effect\\flame_star.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[20,0,0,0]"
+    }
+  },
+  {
+    "star": {
+      "textureData": "assets\\textures\\effect\\star.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[24,0,0,0]"
+    }
+  },
+  {
+    "circle": {
+      "textureData": "assets\\textures\\effect\\circle.png",
+      "width": "32",
+      "height": "32",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "48",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[26,0,0,0]"
+    }
+  },
+  {
+    "flow_particular": {
+      "textureData": "assets\\textures\\effect\\flow_particular.png",
+      "width": "8",
+      "height": "8",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "8",
+      "gfxHeight": "8",
+      "frameStyle": "0",
+      "frames": "4",
+      "frameSpeed": "-1",
+      "disappearTime": "180",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Flow_AI"
+    }
+  },
+  {
+    "fallen_flame_star": {
+      "textureData": "assets\\textures\\effect\\flame_star.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "1",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[20,0,0,0]"
+    }
+  },
+  {
+    "flash": {
+      "textureData": "assets\\textures\\effect\\flash.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "32",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[24,0,0,0]"
+    }
+  },
+  {
+    "flash2": {
+      "textureData": "assets\\textures\\effect\\flash2.png",
+      "width": "14",
+      "height": "14",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "14",
+      "gfxHeight": "14",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "32",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[24,0,0,0]"
+    }
+  },
+  {
+    "gore_skull": {
+      "textureData": "assets\\textures\\effect\\gore\\skull.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "24",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_zombie": {
+      "textureData": "assets\\textures\\effect\\gore\\zombie.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-6",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "32",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "ender_flash": {
+      "textureData": "assets\\textures\\effect\\ender_flash.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[24,0,0,8]"
+    }
+  },
+  {
+    "laser_flash": {
+      "textureData": "assets\\textures\\effect\\laser_flash.png",
+      "width": "8",
+      "height": "8",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "8",
+      "gfxHeight": "8",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[16,0,0,0]"
+    }
+  },
+  {
+    "chip": {
+      "textureData": "assets\\textures\\effect\\chip.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "160",
+      "isForeground": "1",
+      "gravity": "1",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "fire_smoke": {
+      "textureData": "assets\\textures\\effect\\fire_smoke.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "3",
+      "frameSpeed": "-1",
+      "disappearTime": "80",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "fire_flame": {
+      "textureData": "assets\\textures\\effect\\fire_flame.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "3",
+      "frameSpeed": "-1",
+      "disappearTime": "80",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[28,12,8,0]"
+    }
+  },
+  {
+    "redstone_smoke": {
+      "textureData": "assets\\textures\\effect\\redstone_smoke.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "3",
+      "frameSpeed": "-1",
+      "disappearTime": "80",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "fire": {
+      "textureData": "assets\\textures\\effect\\fire.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "4",
+      "frameSpeed": "8",
+      "disappearTime": "120",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI",
+      "isLighting": "1",
+      "lightColor": "[20,6,6,0]"
+    }
+  },
+  {
+    "heal": {
+      "textureData": "assets\\textures\\effect\\heal.png",
+      "width": "12",
+      "height": "12",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "12",
+      "gfxHeight": "12",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "poison": {
+      "textureData": "assets\\textures\\effect\\poison.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "20",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "liquid_paticular": {
+      "textureData": "assets\\textures\\effect\\liquid_paticular.png",
+      "width": "8",
+      "height": "8",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "8",
+      "gfxHeight": "8",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "160",
+      "isForeground": "1",
+      "gravity": "1",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "arrow_paticular": {
+      "textureData": "assets\\textures\\effect\\chip.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "0",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "gore_arrow_zombie": {
+      "textureData": "assets\\textures\\effect\\gore\\arrow_zombie.png",
+      "width": "24",
+      "height": "24",
+      "gfxOffsetX": "-12",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "48",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_creeper": {
+      "textureData": "assets\\textures\\effect\\gore\\creeper.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "24",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_spider": {
+      "textureData": "assets\\textures\\effect\\gore\\spider.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "0",
+      "gfxWidth": "26",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_bat": {
+      "textureData": "assets\\textures\\effect\\gore\\bat.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-2",
+      "gfxWidth": "26",
+      "gfxHeight": "24",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "exp_paticular": {
+      "textureData": "assets\\textures\\effect\\liquid_paticular.png",
+      "width": "6",
+      "height": "6",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "6",
+      "gfxHeight": "6",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "160",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Smoke_AI"
+    }
+  },
+  {
+    "chasting_word": {
+      "textureData": "assets\\textures\\effect\\heal.png",
+      "width": "12",
+      "height": "12",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "12",
+      "gfxHeight": "12",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "72",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Chast_AI"
+    }
+  },
+  {
+    "pot_break": {
+      "textureData": "assets\\textures\\effect\\pot_break.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-8",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "1000",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "pot_ice_break": {
+      "textureData": "assets\\textures\\effect\\ice_pot_break.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-8",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "1000",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "explosion": {
+      "textureData": "assets\\textures\\effect\\explosion.png",
+      "width": "64",
+      "height": "64",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "64",
+      "gfxHeight": "64",
+      "frameStyle": "0",
+      "frames": "16",
+      "frameSpeed": "2",
+      "disappearTime": "32",
+      "isForeground": "1",
+      "gravity": "0",
+      "collisionWithBlocks": "0",
+      "fixByBlocks": "0",
+      "pAI": "Explosion_AI"
+    }
+  },
+  {
+    "gore_bald_zombie": {
+      "textureData": "assets\\textures\\effect\\gore\\bald_zombie.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-1",
+      "gfxOffsetY": "-2",
+      "gfxWidth": "22",
+      "gfxHeight": "24",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_black_rabbit": {
+      "textureData": "assets\\textures\\effect\\gore\\black_rabbit.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "16",
+      "gfxHeight": "18",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_brown_mushroom_cow": {
+      "textureData": "assets\\textures\\effect\\gore\\brown_mushroom_cow.png",
+      "width": "32",
+      "height": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_brown_rabbit": {
+      "textureData": "assets\\textures\\effect\\gore\\brown_rabbit.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_chicken": {
+      "textureData": "assets\\textures\\effect\\gore\\chicken.png",
+      "width": "14",
+      "height": "14",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "18",
+      "gfxHeight": "14",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_cow": {
+      "textureData": "assets\\textures\\effect\\gore\\cow.png",
+      "width": "24",
+      "height": "24",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "40",
+      "gfxHeight": "30",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_doge_zombie": {
+      "textureData": "assets\\textures\\effect\\gore\\doge_zombie.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "28",
+      "gfxHeight": "22",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_dolphin": {
+      "textureData": "assets\\textures\\effect\\gore\\dolphin.png",
+      "width": "32",
+      "height": "32",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "48",
+      "gfxHeight": "38",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_drowned": {
+      "textureData": "assets\\textures\\effect\\gore\\drowned.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "28",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_enderman": {
+      "textureData": "assets\\textures\\effect\\gore\\enderman.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-4",
+      "gfxWidth": "26",
+      "gfxHeight": "28",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_evoker": {
+      "textureData": "assets\\textures\\effect\\gore\\evoker.png",
+      "width": "30",
+      "height": "30",
+      "gfxOffsetX": "-1",
+      "gfxOffsetY": "0",
+      "gfxWidth": "32",
+      "gfxHeight": "30",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_flower_creeper": {
+      "textureData": "assets\\textures\\effect\\gore\\flower_creeper.png",
+      "width": "8",
+      "height": "8",
+      "gfxOffsetX": "-10",
+      "gfxOffsetY": "-5",
+      "gfxWidth": "28",
+      "gfxHeight": "18",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_husk": {
+      "textureData": "assets\\textures\\effect\\gore\\husk.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "28",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_phantom": {
+      "textureData": "assets\\textures\\effect\\gore\\phantom.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-6",
+      "gfxOffsetY": "-4",
+      "gfxWidth": "32",
+      "gfxHeight": "28",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_pig": {
+      "textureData": "assets\\textures\\effect\\gore\\pig.png",
+      "width": "32",
+      "height": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "40",
+      "gfxHeight": "38",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_red_mushroom_cow": {
+      "textureData": "assets\\textures\\effect\\gore\\red_mushroom_cow.png",
+      "width": "32",
+      "height": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_sheep": {
+      "textureData": "assets\\textures\\effect\\gore\\sheep.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-7",
+      "gfxOffsetY": "-6",
+      "gfxWidth": "34",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_shulker": {
+      "textureData": "assets\\textures\\effect\\gore\\shulker.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "32",
+      "gfxHeight": "18",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_zombie_pigman": {
+      "textureData": "assets\\textures\\effect\\gore\\zombie_pigman.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "28",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_squid": {
+      "textureData": "assets\\textures\\effect\\gore\\squid.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-1",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "22",
+      "gfxHeight": "22",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_turtle": {
+      "textureData": "assets\\textures\\effect\\gore\\turtle.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "-9",
+      "gfxOffsetY": "-5",
+      "gfxWidth": "34",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_villager_zombie": {
+      "textureData": "assets\\textures\\effect\\gore\\villager_zombie.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "26",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_white_rabbit": {
+      "textureData": "assets\\textures\\effect\\gore\\white_rabbit.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_wither_skeleton": {
+      "textureData": "assets\\textures\\effect\\gore\\wither_skeleton.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-2",
+      "gfxWidth": "28",
+      "gfxHeight": "24",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_yellow_rabbit": {
+      "textureData": "assets\\textures\\effect\\gore\\yellow_rabbit.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "gfxWidth": "16",
+      "gfxHeight": "16",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_mummy": {
+      "textureData": "assets\\textures\\effect\\gore\\mummy.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-1",
+      "gfxOffsetY": "-2",
+      "gfxWidth": "22",
+      "gfxHeight": "24",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_eagle": {
+      "textureData": "assets\\textures\\effect\\gore\\eagle.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "24",
+      "gfxHeight": "22",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_jungle_bat": {
+      "textureData": "assets\\textures\\effect\\gore\\jungle_bat.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-1",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "22",
+      "gfxHeight": "22",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_large_jungle_bat": {
+      "textureData": "assets\\textures\\effect\\gore\\large_jungle_bat.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-6",
+      "gfxWidth": "28",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_waste_mummy": {
+      "textureData": "assets\\textures\\effect\\gore\\waste_mummy.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-7",
+      "gfxOffsetY": "-5",
+      "gfxWidth": "34",
+      "gfxHeight": "30",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_iron_zombie": {
+      "textureData": "assets\\textures\\effect\\gore\\iron_zombie.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "26",
+      "gfxHeight": "22",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_boney_skeleton": {
+      "textureData": "assets\\textures\\effect\\gore\\boney_skeleton.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-4",
+      "gfxWidth": "36",
+      "gfxHeight": "28",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_angry_skeleton": {
+      "textureData": "assets\\textures\\effect\\gore\\angry_skeleton.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "24",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_black_skeleton": {
+      "textureData": "assets\\textures\\effect\\gore\\black_skeleton.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "24",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_blood_skeleton": {
+      "textureData": "assets\\textures\\effect\\gore\\blood_skeleton.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "24",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_tainted_skeleton": {
+      "textureData": "assets\\textures\\effect\\gore\\tainted_skeleton.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "0",
+      "gfxWidth": "24",
+      "gfxHeight": "20",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_tainted_creeper": {
+      "textureData": "assets\\textures\\effect\\gore\\tainted_creeper.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-6",
+      "gfxOffsetY": "-6",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_blood_bat": {
+      "textureData": "assets\\textures\\effect\\gore\\blood_bat.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-1",
+      "gfxOffsetY": "-1",
+      "gfxWidth": "22",
+      "gfxHeight": "22",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_magma_birdo": {
+      "textureData": "assets\\textures\\effect\\gore\\magma_birdo.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-5",
+      "gfxOffsetY": "-3",
+      "gfxWidth": "30",
+      "gfxHeight": "26",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_man_eater": {
+      "textureData": "assets\\textures\\effect\\gore\\man_eater.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-6",
+      "gfxOffsetY": "-16",
+      "gfxWidth": "32",
+      "gfxHeight": "52",
+      "frameStyle": "0",
+      "frames": "2",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_blood_eye": {
+      "textureData": "assets\\textures\\effect\\gore\\blood_eye.png",
+      "width": "20",
+      "height": "20",
+      "gfxOffsetX": "-10",
+      "gfxOffsetY": "-10",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_small_hell_eater": {
+      "textureData": "assets\\textures\\effect\\gore\\small_hell_eater.png",
+      "width": "16",
+      "height": "16",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-8",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "600",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_worm_head": {
+      "textureData": "assets\\textures\\effect\\gore\\worm_head.png",
+      "width": "30",
+      "height": "30",
+      "gfxOffsetX": "-24",
+      "gfxOffsetY": "-11",
+      "gfxWidth": "78",
+      "gfxHeight": "52",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "300",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_worm_body": {
+      "textureData": "assets\\textures\\effect\\gore\\worm_body.png",
+      "width": "30",
+      "height": "30",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-11",
+      "gfxWidth": "46",
+      "gfxHeight": "52",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "300",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  },
+  {
+    "gore_worm_tail": {
+      "textureData": "assets\\textures\\effect\\gore\\worm_tail.png",
+      "width": "30",
+      "height": "30",
+      "gfxOffsetX": "-15",
+      "gfxOffsetY": "-17",
+      "gfxWidth": "60",
+      "gfxHeight": "64",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "-1",
+      "disappearTime": "300",
+      "isForeground": "0",
+      "gravity": "1",
+      "collisionWithBlocks": "1",
+      "fixByBlocks": "1",
+      "pAI": "Gore_AI"
+    }
+  }
+]

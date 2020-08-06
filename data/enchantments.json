@@ -1,0 +1,366 @@
+[
+  {
+    "silk_touch": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 2,
+      "tool": [
+        "AXE",
+        "PICKAXE"
+      ]
+    }
+  },
+  {
+    "fortune": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "AXE",
+        "PICKAXE"
+      ]
+    }
+  },
+  {
+    "phyton": {
+      "noCreating": true,
+      "minCreatingLevel": 1000,
+      "allowMaxLevel": 8,
+      "tool": [
+        "AXE",
+        "PICKAXE",
+        "SWORD",
+        "CHARGE_BOW",
+        "BOW",
+        "FISHING_ROD",
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "unbreaking": {
+      "noCreating": false,
+      "minCreatingLevel": 1,
+      "allowMaxLevel": 8,
+      "tool": [
+        "AXE",
+        "PICKAXE",
+        "SWORD",
+        "CHARGE_BOW",
+        "BOW",
+        "FISHING_ROD",
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "efficiency": {
+      "noCreating": false,
+      "minCreatingLevel": 1,
+      "allowMaxLevel": 8,
+      "tool": [
+        "AXE",
+        "PICKAXE"
+      ]
+    }
+  },
+  {
+    "aqua_affinity": {
+      "noCreating": false,
+      "minCreatingLevel": 3,
+      "allowMaxLevel": 8,
+      "tool": [
+        "HELMET"
+      ]
+    }
+  },
+  {
+    "bane_of_arthropods": {
+      "noCreating": false,
+      "minCreatingLevel": 5,
+      "allowMaxLevel": 8,
+      "tool": [
+        "SWORD"
+      ]
+    }
+  },
+  {
+    "blast_protection": {
+      "noCreating": false,
+      "minCreatingLevel": 3,
+      "allowMaxLevel": 8,
+      "tool": [
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "curse_of_binding": {
+      "noCreating": true,
+      "minCreatingLevel": 1000,
+      "allowMaxLevel": 8,
+      "tool": [
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "curse_of_vanishing": {
+      "noCreating": true,
+      "minCreatingLevel": 1000,
+      "allowMaxLevel": 8,
+      "tool": [
+        "AXE",
+        "PICKAXE",
+        "SWORD",
+        "CHARGE_BOW",
+        "BOW",
+        "FISHING_ROD",
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "depth_strider": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "feather_falling": {
+      "noCreating": false,
+      "minCreatingLevel": 10,
+      "allowMaxLevel": 8,
+      "tool": [
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "fire_aspect": {
+      "noCreating": false,
+      "minCreatingLevel": 15,
+      "allowMaxLevel": 8,
+      "tool": [
+        "SWORD"
+      ]
+    }
+  },
+  {
+    "fire_protection": {
+      "noCreating": false,
+      "minCreatingLevel": 8,
+      "allowMaxLevel": 6,
+      "tool": [
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "flame": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "frost_walker": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "infinity": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "knockback": {
+      "noCreating": false,
+      "minCreatingLevel": 15,
+      "allowMaxLevel": 8,
+      "tool": [
+        "SWORD"
+      ]
+    }
+  },
+  {
+    "looting": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "SWORD"
+      ]
+    }
+  },
+  {
+    "luck_of_the_sea": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "FISHING_ROD"
+      ]
+    }
+  },
+  {
+    "lure": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "FISHING_ROD"
+      ]
+    }
+  },
+  {
+    "multishot": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "piercing": {
+      "noCreating": false,
+      "minCreatingLevel": 18,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "power": {
+      "noCreating": false,
+      "minCreatingLevel": 7,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "projectile_protection": {
+      "noCreating": false,
+      "minCreatingLevel": 1,
+      "allowMaxLevel": 8,
+      "tool": [
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "protection": {
+      "noCreating": false,
+      "minCreatingLevel": 1,
+      "allowMaxLevel": 8,
+      "tool": [
+        "HELMET",
+        "CHESTPLATE",
+        "LEGGINGS"
+      ]
+    }
+  },
+  {
+    "punch": {
+      "noCreating": false,
+      "minCreatingLevel": 5,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "quick_charge": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "BOW",
+        "CHARGE_BOW"
+      ]
+    }
+  },
+  {
+    "respiration": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "HELMET"
+      ]
+    }
+  },
+  {
+    "sharpness": {
+      "noCreating": false,
+      "minCreatingLevel": 3,
+      "allowMaxLevel": 8,
+      "tool": [
+        "SWORD"
+      ]
+    }
+  },
+  {
+    "smite": {
+      "noCreating": false,
+      "minCreatingLevel": 6,
+      "allowMaxLevel": 8,
+      "tool": [
+        "SWORD"
+      ]
+    }
+  },
+  {
+    "thorns": {
+      "noCreating": false,
+      "minCreatingLevel": 29,
+      "allowMaxLevel": 8,
+      "tool": [
+        "CHESTPLATE"
+      ]
+    }
+  }
+]

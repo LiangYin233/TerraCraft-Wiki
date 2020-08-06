@@ -1,0 +1,7316 @@
+[
+  {
+    "nature_portal": {
+      "maxGenPartCount": 1,
+      "limitSize": 15,
+      "rewards": [],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,255,255,0]",
+          "note": "传送门",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_FURNITURE", "portal_door", "null", 0 ]
+          ]
+        },
+
+        {
+          "color": "[255,120,30,30]",
+          "note": "前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick_cracked", "null" ],
+            [ "BC_PLACE_TILE", "stone_brick_cracked", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 12,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "under_nature_portal": {
+      "maxGenPartCount": 1,
+      "limitSize": 15,
+      "rewards": [],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,255,255,0]",
+          "note": "传送门",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_FURNITURE", "portal_door", "null", 0 ]
+          ]
+        },
+
+        {
+          "color": "[255,120,30,30]",
+          "note": "前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick_cracked", "null" ],
+            [ "BC_PLACE_TILE", "stone_brick_cracked", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 12,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "nether_nature_portal": {
+      "maxGenPartCount": 1,
+      "limitSize": 15,
+      "rewards": [],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,255,255,0]",
+          "note": "传送门",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_FURNITURE", "nether_portal_door", "null", 0 ]
+          ]
+        },
+
+        {
+          "color": "[255,120,30,30]",
+          "note": "前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "obsidian", "null" ],
+            [ "BC_PLACE_TILE", "obsidian", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 12,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "fossils": {
+      "maxGenPartCount": 1,
+      "limitSize": 15,
+      "rewards": [],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+        {
+          "color": "[255,150,150,150]",
+          "note": "后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "bone_block", "null" ]
+          ]
+        },
+
+        {
+          "color": "[255,200,200,200]",
+          "note": "前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_TILE", "bone_block", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance5",
+          "image": [ "entrance5" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance6",
+          "image": [ "entrance6" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance7",
+          "image": [ "entrance7" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance8",
+          "image": [ "entrance8" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance9",
+          "image": [ "entrance9" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance10",
+          "image": [ "entrance10" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance11",
+          "image": [ "entrance11" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance12",
+          "image": [ "entrance12" ],
+          "type": "PT_START",
+          "hotX": 7,
+          "hotY": 7,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "forest_house": {
+      "maxGenPartCount": 50,
+      "limitSize": 300,
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "cross_bow",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "wood_dark_oak" ],
+              "rate": 0.9,
+              "min": 3,
+              "max": 5
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "potato" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 6
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.7,
+              "min": 3,
+              "max": 6
+            },
+            {
+              "itemIds": [ "carrot" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 6
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            }
+          ]
+        }
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "橡木门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_oak" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "橡木平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_oak" ]
+          ]
+        },
+        {
+          "color": "[255,50,50,100]",
+          "note": "有空气就放水",
+          "command": [
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,54,40,27]",
+          "note": "有空气就放泥土",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "dirt", "null" ]
+          ]
+        },
+        {
+          "color": "[255,54,100,27]",
+          "note": "有空气就放草泥土",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "dirt", "null", 1 ]
+          ]
+        },
+        {
+          "color": "[255,120,30,30]",
+          "note": "木板前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_oak" ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,40,0,0]",
+          "note": "木板后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,100,100,100]",
+          "note": "石砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,0,0]",
+          "note": "红砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "brick", "null" ],
+            [ "BC_PLACE_TILE", "brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,66,66]",
+          "note": "木板前景石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "glass", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 43,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h1",
+          "image": "h1",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h2",
+          "image": "h2",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h3",
+          "image": "h3",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h4",
+          "image": "h4",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h5",
+          "image": "h5",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h6",
+          "image": "h6",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h7",
+          "image": "h7",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h8",
+          "image": "h8",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h9",
+          "image": "h9",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h10",
+          "image": "h10",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h11",
+          "image": "h11",
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h12",
+          "image": "h12",
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h13",
+          "image": "h13",
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h14",
+          "image": "h14",
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "h15",
+          "image": "h15",
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "dungeon": {
+      "maxGenPartCount": 50,
+      "limitSize": 800,
+      "mainRestraint": {},
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.9,
+              "min": 3,
+              "max": 10
+            }
+          ]
+        }
+      ],
+      "restraints": [
+        {
+          "name": "stair",
+          "checks": [
+            [ "IS_CENTER_Y_LESS_OR_EQUAL_TO", 180 ]
+          ]
+        },
+        {
+          "name": "room",
+          "checks": [
+            [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 120 ]
+          ]
+        }
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,128]",
+          "note": "刺",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "dungeon_brick", "null" ],
+            [ "BC_PLACE_TILE", "thorn", "null" ]
+          ]
+        },
+        {
+          "color": "[255,168,168,168]",
+          "note": "石砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "dungeon_brick", "null" ],
+            [ "BC_PLACE_TILE", "dungeon_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "dungeon_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,100,100]",
+          "note": "石砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,0,0]",
+          "note": "红砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "brick", "null" ],
+            [ "BC_PLACE_TILE", "brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,66,66]",
+          "note": "木板前景石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "glass", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 43,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "s1",
+          "image": [ "s1" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "stair",
+          "weight": 10
+        },
+        {
+          "name": "s2",
+          "image": [ "s2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "stair",
+          "weight": 10
+        },
+        {
+          "name": "s3",
+          "image": [ "s3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "stair",
+          "weight": 10
+        },
+        {
+          "name": "s4",
+          "image": [ "s4" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "stair",
+          "weight": 10
+        },
+        {
+          "name": "r1",
+          "image": [ "r1" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r4",
+          "image": [ "r4" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r5",
+          "image": [ "r5" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r6",
+          "image": [ "r6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r7",
+          "image": [ "r7" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r8",
+          "image": [ "r8" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r9",
+          "image": [ "r9" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r10",
+          "image": [ "r10" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r11",
+          "image": [ "r11" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r12",
+          "image": [ "r12" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r13",
+          "image": [ "r13" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r14",
+          "image": [ "r14" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r15",
+          "image": [ "r15" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r16",
+          "image": [ "r16" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "r17",
+          "image": [ "r17" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 5
+        },
+        {
+          "name": "r18",
+          "image": [ "r18" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e1",
+          "image": [ "e1" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e5",
+          "image": [ "e5" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e6",
+          "image": [ "e6" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e7",
+          "image": [ "e7" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e8",
+          "image": [ "e8" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e9",
+          "image": [ "e9" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e10",
+          "image": [ "e10" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e11",
+          "image": [ "e11" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        },
+        {
+          "name": "e12",
+          "image": [ "e12" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "restraint": "room",
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "nether_fortress": {
+      "maxGenPartCount": 16,
+      "limitSize": 500,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 2000 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "golden_sword",
+              "count": 1
+            },
+            {
+              "itemId": "golden_axe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_axe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_chestplate",
+              "count": 1
+            },
+            {
+              "itemId": "handgun",
+              "count": 1
+            },
+            {
+              "itemId": "shotgun",
+              "count": 1
+            },
+            {
+              "itemId": "ghost_sword",
+              "count": 1
+            },
+            {
+              "itemId": "air_sword",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "rifle", "fire_gun", "rocket_launcher" ],
+              "rate": 0.05,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.75,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.4,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "obsidian" ],
+              "rate": 0.45,
+              "min": 2,
+              "max": 4
+            }
+          ]
+        },
+        {
+          "name": "desk_reward",
+          "rareGenCount": 1,
+          "rares": [],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "book" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "paper" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "obsidian" ],
+              "rate": 0.35,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 3
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,144,144,0]",
+          "note": "传送门",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_FURNITURE", "nether_portal_door", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "nether_chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "祭坛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "nether_altar", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 5 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "door_nether" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_nether_brick" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "nether_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_nether" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_nether", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_nether", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_nether" ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_nether", "desk_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_nether", "desk_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,255,55]",
+          "note": "地狱疣",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "nether_wart", "null", 2 ]
+          ]
+        },
+
+
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "地狱砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "nether_brick", "null" ],
+            [ "BC_PLACE_TILE", "nether_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "地狱砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "nether_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,133,0,0]",
+          "note": "灵魂沙前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "soul_sand", "null" ],
+            [ "BC_PLACE_TILE", "soul_sand", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,200]",
+          "note": "黑曜石前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "obsidian", "null" ],
+            [ "BC_PLACE_TILE", "obsidian", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,0,100]",
+          "note": "黑曜石后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "obsidian", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 43,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+
+        {
+          "name": "r1",
+          "image": [ "r1", "r1_o1", "r1_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2", "r2_o1", "r2_o2", "r2_o3", "r2_o4", "r2_o5", "r2_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3", "r3_o1", "r3_o2", "r3_o3", "r3_o4", "r3_o5", "r3_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r4",
+          "image": [ "r4", "r4_o1", "r4_o2", "r4_o3", "r4_o4", "r4_o5", "r4_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r5",
+          "image": [ "r5", "r5_o1", "r5_o2", "r5_o3", "r5_o4", "r5_o5", "r5_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r6",
+          "image": [ "r6", "r6_o1", "r6_o2", "r6_o3", "r6_o4", "r6_o5", "r6_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r7",
+          "image": [ "r7", "r7_o1", "r7_o2", "r7_o3", "r7_o4", "r7_o5", "r7_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r8",
+          "image": [ "r8", "r8_o1", "r8_o2", "r8_o3", "r8_o4", "r8_o5", "r8_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r9",
+          "image": [ "r9", "r9_o1", "r9_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r10",
+          "image": [ "r10", "r10_o1", "r10_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r11",
+          "image": [ "r11", "r11_o1", "r11_o2", "r11_o3", "r11_o4", "r11_o5", "r11_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r12",
+          "image": [ "r12", "r12_o1", "r12_o2", "r12_o3", "r12_o4", "r12_o5", "r12_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r13",
+          "image": [ "r13", "r13_o1", "r13_o2", "r13_o3", "r13_o4", "r13_o5", "r13_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r14",
+          "image": [ "r14", "r14_o1", "r14_o2", "r14_o3", "r14_o4", "r14_o5", "r14_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r15",
+          "image": [ "r15", "r15_o1", "r15_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance", "r15" ],
+          "weight": 10
+        },
+        {
+          "name": "r16",
+          "image": [ "r16" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "r17",
+          "image": [ "r17" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2", "e1_o3", "e1_o4", "e1_o5", "e1_o6" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2", "e2_o3", "e2_o4", "e2_o5", "e2_o6" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3", "e3_o1", "e3_o2", "e3_o3", "e3_o4", "e3_o5", "e3_o6" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4", "e4_o1", "e4_o2", "e4_o3" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "e5",
+          "image": [ "e5", "e5_o1", "e5_o2", "e5_o3", "e5_o4" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "e6",
+          "image": [ "e6", "e6_o1", "e6_o2", "e6_o3", "e6_o4" ],
+          "type": "PT_END",
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "mini_house": {
+      "maxGenPartCount": 1,
+      "limitSize": 100,
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "cross_bow",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "wood_dark_oak" ],
+              "rate": 0.9,
+              "min": 3,
+              "max": 5
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "potato" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 6
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.7,
+              "min": 3,
+              "max": 6
+            },
+            {
+              "itemIds": [ "carrot" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 6
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            }
+          ]
+        }
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+
+
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,255,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "橡木门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_oak" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "橡木平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_oak" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_oak", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_oak", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+
+
+
+
+        {
+          "color": "[255,50,50,100]",
+          "note": "有空气就放水",
+          "command": [
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,54,40,27]",
+          "note": "有空气就放泥土",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "dirt", "null" ]
+          ]
+        },
+        {
+          "color": "[255,54,100,27]",
+          "note": "有空气就放草泥土",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "dirt", "null", 1 ]
+          ]
+        },
+        {
+          "color": "[255,120,30,30]",
+          "note": "橡木木板前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_oak", 1 ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,40,0,0]",
+          "note": "橡木木板后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_oak", 1 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,100]",
+          "note": "石砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null", 1 ],
+            [ "BC_PLACE_TILE", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,66,66]",
+          "note": "橡木木板前景石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null", 1 ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null", 1 ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "glass", "null", 1 ]
+          ]
+        },
+
+        {
+          "color": "[255,128,64,64]",
+          "note": "木头前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "hay_bale", "null", 1 ],
+            [ "BC_PLACE_TILE", "hay_bale", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "under_oak_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 34,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "wooden_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_boomerang",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 24
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 2
+            },
+            {
+              "itemId": "glow_ball",
+              "count": 6
+            },
+            {
+              "itemId": "book",
+              "count": 3
+            },
+            {
+              "itemId": "grenade",
+              "count": 3
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gunpowder" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.34,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.20,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "pumpkin_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "melon_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "bucket_empty" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "lighting_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_oak" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_oak" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_oak", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_oak", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_oak" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_oak" ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_oak" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        },
+
+
+        {
+          "name": "r1",
+          "image": [ "r1", "r1_o1", "r1_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2", "r2_o1", "r2_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3", "r3_o1", "r3_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r4",
+          "image": [ "r4", "r4_o1" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3", "e3_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4", "e4_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "under_dark_oak_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 50,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "wooden_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_boomerang",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 24
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 2
+            },
+            {
+              "itemId": "glow_ball",
+              "count": 6
+            },
+            {
+              "itemId": "book",
+              "count": 3
+            },
+            {
+              "itemId": "grenade",
+              "count": 3
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gunpowder" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.34,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.20,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "pumpkin_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "melon_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "bucket_empty" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "lighting_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_dark_oak", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_dark_oak", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_dark_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_dark_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_dark_oak" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_dark_oak" ],
+            [ "BC_PLACE_TILE", "plank", "plank_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_dark_oak" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        },
+
+
+        {
+          "name": "r1",
+          "image": [ "r1", "r1_o1", "r1_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2", "r2_o1", "r2_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3", "r3_o1", "r3_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r4",
+          "image": [ "r4", "r4_o1" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3", "e3_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4", "e4_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "under_jungle_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 50,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "wooden_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_boomerang",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 24
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 2
+            },
+            {
+              "itemId": "glow_ball",
+              "count": 6
+            },
+            {
+              "itemId": "book",
+              "count": 3
+            },
+            {
+              "itemId": "grenade",
+              "count": 3
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gunpowder" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.34,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.20,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "pumpkin_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "melon_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "bucket_empty" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "lighting_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_jungle", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_jungle", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_jungle", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_jungle", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,180]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot_large", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_jungle" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_jungle" ],
+            [ "BC_PLACE_TILE", "plank", "plank_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_jungle" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        },
+
+
+        {
+          "name": "r1",
+          "image": [ "r1", "r1_o1", "r1_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2", "r2_o1", "r2_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3", "r3_o1", "r3_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r4",
+          "image": [ "r4", "r4_o1" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3", "e3_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4", "e4_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "under_spruce_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 50,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "iron_sword",
+              "count": 1
+            },
+            {
+              "itemId": "lead_sword",
+              "count": 1
+            },
+            {
+              "itemId": "copper_axe",
+              "count": 1
+            },
+            {
+              "itemId": "sliver_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "tin_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 36
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 8
+            },
+            {
+              "itemId": "glow_ball",
+              "count": 12
+            },
+            {
+              "itemId": "book",
+              "count": 8
+            },
+            {
+              "itemId": "grenade",
+              "count": 6
+            },
+            {
+              "itemId": "ghost_sword",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gunpowder" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.34,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.20,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "pumpkin_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "melon_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "bucket_empty" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "lighting_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_spruce" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_spruce" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_spruce" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_spruce", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_spruce", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_spruce" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_spruce", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_spruce", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,180]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot_large", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_spruce" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_spruce" ],
+            [ "BC_PLACE_TILE", "plank", "plank_spruce" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_spruce" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1", "entrance2_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1", "entrance3_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3", "e3_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4", "e4_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "under_tainted_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 50,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "iron_sword",
+              "count": 1
+            },
+            {
+              "itemId": "iron_axe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_helmet",
+              "count": 1
+            },
+            {
+              "itemId": "iron_chestplate",
+              "count": 1
+            },
+            {
+              "itemId": "iron_leggings",
+              "count": 1
+            },
+            {
+              "itemId": "iron_helmet",
+              "count": 1
+            },
+            {
+              "itemId": "copper_chestplate",
+              "count": 1
+            },
+            {
+              "itemId": "tin_leggings",
+              "count": 1
+            },
+            {
+              "itemId": "tin_chestplate",
+              "count": 1
+            },
+            {
+              "itemId": "tin_leggings",
+              "count": 1
+            },
+            {
+              "itemId": "ghost_sword",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "apple" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.23,
+              "min": 4,
+              "max": 9
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.20,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "pumpkin_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "melon_seed" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 3
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 3 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_tainted" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_tainted" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_tainted" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_tainted", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_tainted", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_tainted" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_tainted", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_tainted", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "tainted_vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_tainted" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_tainted" ],
+            [ "BC_PLACE_TILE", "plank", "plank_tainted" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "wood", "wood_tainted" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1", "entrance2_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1", "entrance3_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e3",
+          "image": [ "e3", "e3_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e4",
+          "image": [ "e4", "e4_o1" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "under_stone_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 50,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "iron_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "iron_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 8
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 2
+            },
+            {
+              "itemId": "bomb",
+              "count": 2
+            },
+            {
+              "itemId": "grenade",
+              "count": 3
+            },
+            {
+              "itemId": "ghost_sword",
+              "count": 1
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "apple" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "bread" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.34,
+              "min": 3,
+              "max": 8
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 4,
+              "max": 9
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 3
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "stone_chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_jungle", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_jungle", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_jungle" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_jungle", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_jungle", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,180]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot_large", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_jungle" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,97,97,97]",
+          "note": "主方块后景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "mineshaft": {
+      "maxGenPartCount": 2,
+      "limitSize": 350,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 12
+            },
+            {
+              "itemId": "yellow_torch",
+              "count": 6
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "bread" ],
+              "rate": 0.44,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.3,
+              "min": 3,
+              "max": 8
+            },
+            {
+              "itemIds": [ "pumpkin_seed" ],
+              "rate": 0.3,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "melon_seed" ],
+              "rate": 0.3,
+              "min": 2,
+              "max": 4
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "lapis_lazuli" ],
+              "rate": 0.2,
+              "min": 4,
+              "max": 9
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.2,
+              "min": 4,
+              "max": 9
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 2
+            }
+          ]
+        },
+        {
+          "name": "desk_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "book" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 10
+            },
+            {
+              "itemIds": [ "paper" ],
+              "rate": 0.75,
+              "min": 12,
+              "max": 18
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_dark_oak", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_dark_oak", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_dark_oak", "desk_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_dark_oak", "desk_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_dark_oak" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_dark_oak" ],
+            [ "BC_PLACE_TILE", "plank", "plank_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,83,83,83]",
+          "note": "主方块后景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "fence", "fence_dark_oak" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1", "entrance2_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+
+
+        {
+          "name": "r1",
+          "image": [ "r1", "r1_o1", "r1_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2", "r2_o1", "r2_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r4",
+          "image": [ "r4" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r5",
+          "image": [ "r5", "r5_o1", "r5_o2" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+
+
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e2_o1", "e2_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "pyramid": {
+      "maxGenPartCount": 1,
+      "limitSize": 200,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [],
+          "normals": [
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.7,
+              "min": 4,
+              "max": 6
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.7,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gunpowder" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "sand" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "spider_eye" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "book" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.23,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 5
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 3
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 2 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_sandstone" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_dark_oak", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_dark_oak", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_dark_oak" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_dark_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_dark_oak", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,180]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot_large", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,150]",
+          "note": "藤蔓",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "vine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_cactus" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,168]",
+          "note": "踏板",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_smooth", "null" ],
+            [ "BC_PLACE_FURNITURE", "pressure_plate", "pressure_plate_stone" ]
+          ]
+        },
+        {
+          "color": "[255,255,50,50]",
+          "note": "红石线",
+          "command": [
+            [ "BC_PLACE_WIRE", 1, 0 ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_smooth", "null" ],
+            [ "BC_PLACE_TILE", "sandstone_smooth", "null" ]
+          ]
+        },
+        {
+          "color": "[255,202,202,202]",
+          "note": "主方块前景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_carved", "null" ],
+            [ "BC_PLACE_TILE", "sandstone_carved", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,70,40]",
+          "note": "主方块前景3",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "terracotta", "terracotta_orange" ],
+            [ "BC_PLACE_TILE", "terracotta", "terracotta_orange" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,240]",
+          "note": "主方块前景4",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "terracotta", "terracotta_blue" ],
+            [ "BC_PLACE_TILE", "terracotta", "terracotta_blue" ]
+          ]
+        },
+        {
+          "color": "[255,250,0,0]",
+          "note": "TNT",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_smooth", "null" ],
+            [ "BC_PLACE_TILE", "tnt", "null" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_smooth", "null" ]
+          ]
+        },
+        {
+          "color": "[255,133,133,133]",
+          "note": "主方块后景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_carved", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,100,240]",
+          "note": "主方块后景3",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "terracotta", "terracotta_blue" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 100,
+          "hotY": 72,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+  {
+    "desert_house": {
+      "maxGenPartCount": 1,
+      "limitSize": 100,
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [],
+          "normals": [
+            {
+              "itemIds": [ "water_staff", "amethyst_staff" ],
+              "rate": 0.54,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bread" ],
+              "rate": 0.40,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_helmet" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_chestplate" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_leggings" ],
+              "rate": 0.15,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "raw_porkchop" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "raw_mutton" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "raw_beef" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "wheat" ],
+              "rate": 0.24,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.13,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "paper", "book" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "itemIds": [ "stick" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "sapling_oak" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "raw_salmon" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "raw_cod" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "bucket_water" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "feather" ],
+              "rate": 0.25,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "dye_yellow" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "dye_green" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 1
+            }
+          ]
+        }
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+
+
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 2 ]
+          ]
+        },
+        {
+          "color": "[255,0,255,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "橡木门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_birch" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_sandstone" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_birch" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_birch", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_birch", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_birch", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_birch", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_birch" ]
+          ]
+        },
+
+
+
+
+        {
+          "color": "[255,50,50,100]",
+          "note": "有空气就放水",
+          "command": [
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,54,40,27]",
+          "note": "有空气就放沙石",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "sandstone", "null" ]
+          ]
+        },
+        {
+          "color": "[255,120,30,30]",
+          "note": "主前景1",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_smooth", "null", 1 ],
+            [ "BC_PLACE_TILE", "sandstone_smooth", "null" ]
+          ]
+        },
+        {
+          "color": "[255,40,0,0]",
+          "note": "主后景1",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone_smooth", "null", 1 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,100]",
+          "note": "木板前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_spruce", 1 ],
+            [ "BC_PLACE_TILE", "plank", "plank_spruce" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "木板后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "fence", "fence_spruce", 1 ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "glass", "null", 1 ]
+          ]
+        },
+
+        {
+          "color": "[255,128,64,64]",
+          "note": "木头前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "plank", "plank_dark_oak", 1 ],
+            [ "BC_PLACE_TILE", "plank", "plank_dark_oak" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 100
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+
+  {
+    "monument_ocean": {
+      "noGenSubBoime": true,
+      "maxGenPartCount": 16,
+      "limitSize": 500,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 2000 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [],
+          "normals": []
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "水",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,204,153,0]",
+          "note": "水草",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "kelp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+
+
+
+        {
+          "color": "[255,0,0,128]",
+          "note": "刺",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "dungeon_brick", "null" ],
+            [ "BC_PLACE_TILE", "thorn", "null" ]
+          ]
+        },
+        {
+          "color": "[255,168,168,168]",
+          "note": "海晶石前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine", "null" ],
+            [ "BC_PLACE_TILE", "prismarine", "null" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "海晶石后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine", "null" ],
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "海晶石砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine_brick", "null" ],
+            [ "BC_PLACE_TILE", "prismarine_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,66,0,0]",
+          "note": "海晶石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine_brick", "null" ],
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "暗海晶石前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine_dark", "null" ],
+            [ "BC_PLACE_TILE", "prismarine_dark", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,0,100]",
+          "note": "暗海晶石后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine_dark", "null" ],
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "海晶灯",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_TILE", "sea_lantern", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "湿海绵",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine_dark", "null" ],
+            [ "BC_PLACE_TILE", "wet_sponge", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,204,0]",
+          "note": "金块",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "prismarine_dark", "null" ],
+            [ "BC_PLACE_TILE", "block_ore", "block_gold" ]
+          ]
+        },
+        {
+          "color": "[255,100,66,66]",
+          "note": "木板前景石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "plank", "plank_oak" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "石砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stone_brick", "null" ],
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "glass", "null" ],
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 43,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "aurora_palace": {
+      "maxGenPartCount": 40,
+      "limitSize": 1000,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "wooden_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_boomerang",
+              "count": 1
+            },
+            {
+              "itemId": "torch",
+              "count": 24
+            },
+            {
+              "itemId": "glow_bomb",
+              "count": 2
+            },
+            {
+              "itemId": "glow_ball",
+              "count": 6
+            },
+            {
+              "itemId": "book",
+              "count": 3
+            },
+            {
+              "itemId": "grenade",
+              "count": 3
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "sand" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "sugar_cane" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "ice" ],
+              "rate": 0.4,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "blue_ice" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "stick" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 12
+            },
+            {
+              "itemIds": [ "glowstone_dust" ],
+              "rate": 0.3,
+              "min": 3,
+              "max": 12
+            },
+            {
+              "itemIds": [ "coal", "charcoal" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 12
+            },
+            {
+              "itemIds": [ "redstone" ],
+              "rate": 0.26,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "itemIds": [ "wooden_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "ice_arrow" ],
+              "rate": 0.4,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "ice_bow" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 1
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ],
+            [ "BC_PLACE_CHEST", "chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,244,0,0]",
+          "note": "女王球",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ],
+            [ "BC_PLACE_FURNITURE", "snow_glass_ball", "null" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ],
+            [ "BC_PLACE_TILE", "aurora_block", "null" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ]
+          ]
+        },
+        {
+          "color": "[255,188,188,188]",
+          "note": "柱前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_pillar", "null" ],
+            [ "BC_PLACE_TILE", "aurora_pillar", "null" ]
+          ]
+        },
+        {
+          "color": "[255,144,144,144]",
+          "note": "柱后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_pillar", "null" ]
+          ]
+        },
+        {
+          "color": "[255,188,144,144]",
+          "note": "木板前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ],
+            [ "BC_PLACE_TILE", "plank", "plank_birch" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,222]",
+          "note": "浮冰",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ],
+            [ "BC_PLACE_TILE", "ice_packed", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,122]",
+          "note": "冰",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "aurora_block", "null" ],
+            [ "BC_PLACE_TILE", "ice", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 60,
+          "hotY": 50,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+
+        {
+          "name": "r1",
+          "image": [ "r1", "r1_o1", "r1_o2", "r1_o3", "r1_o4", "r1_o5", "r1_o6" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r2",
+          "image": [ "r2", "r2_o1", "r2_o2", "r2_o3", "r2_o4", "r2_o5" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r3",
+          "image": [ "r3", "r3_o1", "r3_o2", "r3_o3", "r3_o4", "r3_o5" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r4",
+          "image": [ "r4", "r4_o1", "r4_o2", "r4_o3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r5",
+          "image": [ "r5", "r5_o1", "r5_o2", "r5_o3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r6",
+          "image": [ "r6", "r4_o1", "r4_o2", "r4_o3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r7",
+          "image": [ "r7", "r5_o1", "r5_o2", "r5_o3" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r8",
+          "image": [ "r8" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "r9",
+          "image": [ "r9" ],
+          "type": "PT_NORMAL",
+          "unlinkParts": [],
+          "weight": 10
+        },
+
+        {
+          "name": "e1",
+          "image": [ "e1", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        },
+        {
+          "name": "e2",
+          "image": [ "e2", "e1_o1", "e1_o2" ],
+          "type": "PT_END",
+          "unlinkParts": [],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "end_outpost": {
+      "maxGenPartCount": 1,
+      "limitSize": 100,
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "iron_sword",
+              "count": 1
+            },
+            {
+              "itemId": "iron_axe",
+              "count": 1
+            },
+            {
+              "itemId": "iron_pickaxe",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.4,
+              "min": 4,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.5,
+              "min": 2,
+              "max": 6
+            },
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.7,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.2,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.1,
+              "min": 2,
+              "max": 6
+            },
+            {
+              "itemIds": [ "iron_helmet", "iron_chestplate", "iron_leggings" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 1
+            }
+          ]
+        }
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+
+
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "end_rod", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,160,255]",
+          "note": "潜影盒",
+          "command": [
+            [ "BC_PLACE_CHEST", "shulker_box", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_purpur" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+
+
+
+
+        {
+          "color": "[255,50,50,100]",
+          "note": "有空气就放水",
+          "command": [
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,54,40,27]",
+          "note": "有空气就放腐化石",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "tainted_stone", "null" ]
+          ]
+        },
+        {
+          "color": "[255,120,30,30]",
+          "note": "主前景1",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "purpur_block", "null" ],
+            [ "BC_PLACE_TILE", "purpur_block", "null" ]
+          ]
+        },
+        {
+          "color": "[255,40,0,0]",
+          "note": "主后景1",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "purpur_block", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,100,100]",
+          "note": "末地砖前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "end_stone_brick", "null" ],
+            [ "BC_PLACE_TILE", "end_stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "末地砖后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "end_stone_brick", "null" ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stained_glass", "stained_glass_magenta" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance5",
+          "image": [ "entrance5", "entrance5_o1" ],
+          "type": "PT_START",
+          "hotX": 50,
+          "hotY": 55,
+          "unlinkParts": [ "entrance5" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+
+
+  {
+    "jungle_temple": {
+      "maxGenPartCount": 1,
+      "limitSize": 200,
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [
+            {
+              "itemId": "stone_sword",
+              "count": 1
+            },
+            {
+              "itemId": "stone_axe",
+              "count": 1
+            },
+            {
+              "itemId": "stone_pickaxe",
+              "count": 1
+            },
+            {
+              "itemId": "wooden_bow",
+              "count": 1
+            },
+            {
+              "itemId": "book",
+              "count": 8
+            },
+            {
+              "itemId": "amethyst_staff",
+              "count": 1
+            },
+            {
+              "itemId": "water_staff",
+              "count": 1
+            }
+          ],
+          "normals": [
+            {
+              "itemIds": [ "ender_pearl" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 2
+            },
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.6,
+              "min": 4,
+              "max": 6
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.5,
+              "min": 3,
+              "max": 8
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.4,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.5,
+              "min": 2,
+              "max": 7
+            },
+            {
+              "itemIds": [ "stick" ],
+              "rate": 0.5,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.12,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.1,
+              "min": 1,
+              "max": 3
+            }
+          ]
+        },
+        {
+          "name": "trap",
+          "rareGenCount": 0,
+          "rares": [],
+          "normals": [
+            {
+              "itemIds": [ "wooden_arrow", "blood_arrow" ],
+              "rate": 1.0,
+              "min": 8,
+              "max": 16
+            }
+          ]
+        }
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "陷阱箱",
+          "command": [
+            [ "BC_PLACE_CHEST", "trapped_chest", "null", "normal_reward" ],
+            [ "BC_PLACE_WIRE", 1, 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "发射器左",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone", "null" ],
+            [ "BC_PLACE_SHOOTER", "dispenser", "null", "trap", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "发射器右",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone", "null" ],
+            [ "BC_PLACE_SHOOTER", "dispenser", "null", "trap", 1 ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_stone_brick" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,168]",
+          "note": "踏板",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone", "null" ],
+            [ "BC_PLACE_FURNITURE", "pressure_plate", "pressure_plate_stone" ]
+          ]
+        },
+        {
+          "color": "[255,255,50,50]",
+          "note": "红石线",
+          "command": [
+            [ "BC_PLACE_WIRE", 1, 0 ]
+          ]
+        },
+
+
+
+
+        {
+          "color": "[255,50,50,100]",
+          "note": "有空气就放水",
+          "command": [
+            [ "BC_PLACE_LIQUID", "water" ]
+          ]
+        },
+        {
+          "color": "[255,54,40,27]",
+          "note": "有空气就放泥",
+          "command": [
+            [ "BC_CLEAR_FURNITURE" ],
+            [ "BC_PLACE_TILE", "coarse_dirt", "null" ]
+          ]
+        },
+        {
+          "color": "[255,120,30,30]",
+          "note": "主前景1",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone", "null" ],
+            [ "BC_PLACE_TILE", "cobblestone", "null" ]
+          ]
+        },
+        {
+          "color": "[255,40,0,0]",
+          "note": "主后景1",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone", "null" ]
+          ]
+        },
+        {
+          "color": "[255,100,100,100]",
+          "note": "前景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone_mossy", "null" ],
+            [ "BC_PLACE_TILE", "cobblestone_mossy", "null" ]
+          ]
+        },
+        {
+          "color": "[255,10,10,10]",
+          "note": "后景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "cobblestone_mossy", "null" ]
+          ]
+        },
+        {
+          "color": "[255,222,222,244]",
+          "note": "玻璃后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "stained_glass", "stained_glass_magenta" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1" ],
+          "type": "PT_START",
+          "hotX": 95,
+          "hotY": 45,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        }
+      ]
+    }
+  },
+  {
+    "under_desert_cabin": {
+      "maxGenPartCount": 2,
+      "limitSize": 50,
+      "mainRestraint": {
+        "checks": [
+          [ "IS_CENTER_Y_GREATER_OR_EQUAL_TO", 0 ]
+        ]
+      },
+      "rewards": [
+        {
+          "name": "normal_reward",
+          "rareGenCount": 1,
+          "rares": [],
+          "normals": [
+            {
+              "itemIds": [ "bone" ],
+              "rate": 0.7,
+              "min": 4,
+              "max": 6
+            },
+            {
+              "itemIds": [ "rotten_flesh" ],
+              "rate": 0.7,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "gunpowder" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "sand" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "string" ],
+              "rate": 0.6,
+              "min": 1,
+              "max": 8
+            },
+            {
+              "itemIds": [ "spider_eye" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "book" ],
+              "rate": 0.3,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "golden_apple" ],
+              "rate": 0.23,
+              "min": 1,
+              "max": 1
+            },
+            {
+              "itemIds": [ "iron_ingot", "copper_ingot", "tin_ingot", "lead_ingot" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 5
+            },
+            {
+              "itemIds": [ "gold_ingot", "sliver_ingot", "bronze_ingot", "steel_ingot" ],
+              "rate": 0.18,
+              "min": 2,
+              "max": 5
+            },
+            {
+              "itemIds": [ "emerald" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "itemIds": [ "diamond" ],
+              "rate": 0.18,
+              "min": 1,
+              "max": 3
+            }
+          ]
+        }
+      ],
+      "restraints": [
+      ],
+      "commandColors": [
+        {
+          "color": "[255,64,64,64]",
+          "note": "无操作",
+          "command": [
+            [ "BC_NO_OP" ]
+          ]
+        },
+        {
+          "color": "[255,192,192,192]",
+          "note": "前景记号"
+        },
+        {
+          "color": "[255,0,0,0]",
+          "note": "空气",
+          "command": [
+            [ "BC_CLEAR_LAKE" ],
+            [ "BC_CLEAR" ]
+          ]
+        },
+        {
+          "color": "[255,0,64,255]",
+          "pipe": true
+        },
+        {
+          "color": "[255,0,255,255]",
+          "pipe": true
+        },
+
+
+        {
+          "color": "[255,0,160,255]",
+          "note": "箱子",
+          "command": [
+            [ "BC_PLACE_CHEST", "stone_chest", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,0]",
+          "note": "桶",
+          "command": [
+            [ "BC_PLACE_CHEST", "barrel", "null", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,0,200,0]",
+          "note": "罐子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "pot", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,255,255,0]",
+          "note": "火把",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "torch", "null", 0 ]
+          ]
+        },
+        {
+          "color": "[255,102,102,204]",
+          "note": "门",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "door", "wooden_door_birch" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,255]",
+          "note": "平台",
+          "command": [
+            [ "BC_PLACE_TILE", "platform", "platform_birch" ]
+          ]
+        },
+        {
+          "color": "[255,0,255,0]",
+          "note": "吊灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "fire_lamp", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,0,130]",
+          "note": "合成台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "crafting_table", "null" ]
+          ]
+        },
+        {
+          "color": "[255,128,64,32]",
+          "note": "熔炉",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "furnace", "null" ]
+          ]
+        },
+        {
+          "color": "[255,255,0,0]",
+          "note": "桌子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "table", "table_birch" ]
+          ]
+        },
+        {
+          "color": "[255,128,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_birch", 1 ]
+          ]
+        },
+        {
+          "color": "[255,160,0,0]",
+          "note": "椅子",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chair", "chair_birch", 0 ]
+          ]
+        },
+        {
+          "color": "[255,0,130,0]",
+          "note": "长凳",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "bench", "bench_birch" ]
+          ]
+        },
+        {
+          "color": "[255,0,128,255]",
+          "note": "床",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "wooden_bed", "wooden_bed_red", 0 ]
+          ]
+        },
+        {
+          "color": "[255,100,100,0]",
+          "note": "书架",
+          "command": [
+            [ "BC_PLACE_CHEST", "bookcase", "bookcase_birch", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,0]",
+          "note": "桌柜",
+          "command": [
+            [ "BC_PLACE_CHEST", "cabinet", "cabinet_birch", "normal_reward" ]
+          ]
+        },
+        {
+          "color": "[255,200,200,120]",
+          "note": "蜡烛",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle", "null" ]
+          ]
+        },
+        {
+          "color": "[255,0,130,130]",
+          "note": "蜡烛台",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "candle_holder", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,130]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot", "null" ]
+          ]
+        },
+        {
+          "color": "[255,130,0,180]",
+          "note": "花盆",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "flower_pot_large", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,0,0]",
+          "note": "缸",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cauldron", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,0]",
+          "note": "水晶灯",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "chandeliers", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,150,150]",
+          "note": "蜘蛛网",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "cobweb", "null" ]
+          ]
+        },
+        {
+          "color": "[255,150,255,0]",
+          "note": "树苗",
+          "command": [
+            [ "BC_PLACE_FURNITURE", "sapling", "sapling_cactus" ]
+          ]
+        },
+
+
+        {
+          "color": "[255,168,168,168]",
+          "note": "主方块前景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "terracotta", "terracotta_yellow" ],
+            [ "BC_PLACE_TILE", "terracotta", "terracotta_yellow" ]
+          ]
+        },
+        {
+          "color": "[255,114,114,114]",
+          "note": "主方块后景",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "terracotta", "terracotta_yellow" ]
+          ]
+        },
+        {
+          "color": "[255,97,97,97]",
+          "note": "主方块后景2",
+          "command": [
+            [ "BC_CLEAR" ],
+            [ "BC_PLACE_BACK", "sandstone", "null" ]
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "name": "entrance",
+          "image": [ "entrance", "entrance_o1", "entrance_o2" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance2",
+          "image": [ "entrance2", "entrance2_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance2" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance3",
+          "image": [ "entrance3", "entrance3_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance3" ],
+          "weight": 10
+        },
+        {
+          "name": "entrance4",
+          "image": [ "entrance4", "entrance4_o1" ],
+          "type": "PT_START",
+          "hotX": 25,
+          "hotY": 25,
+          "unlinkParts": [ "entrance4" ],
+          "weight": 10
+        }
+      ]
+    }
+  }
+]

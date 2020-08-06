@@ -1,0 +1,60 @@
+[
+  {
+    "walls": [
+      {
+        "idA": "prismarine"
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 20,
+      "maxMobSpawn": 10,
+      "mobs": [
+        {
+          "id": "guardian",
+          "weight": 5
+        }
+      ]
+    }
+  },
+  {
+    "walls": [
+      {
+        "idA": "aurora_block"
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 150,
+      "maxMobSpawn": 6,
+      "mobs": [
+        {
+          "id": "snow_guardian",
+          "weight": 5
+        },
+        {
+          "id": "snow_guardian_archer",
+          "weight": 5
+        }
+      ]
+    }
+  },
+  {
+    "walls": [
+      {
+        "idA": "end_stone_brick"
+      },
+      {
+        "idA": "purpur_block"
+      }
+    ],
+    "spawn": {
+      "mobSpeed": 150,
+      "maxMobSpawn": 4,
+      "mobs": [
+        {
+          "id": "shulker",
+          "weight": 5
+        }
+      ]
+    }
+  }
+]

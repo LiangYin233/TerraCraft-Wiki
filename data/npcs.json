@@ -1,0 +1,5415 @@
+[
+  {
+    "pig": {
+      "textureData": "assets\\textures\\npc\\pig.png",
+      "type": "ANIMAL",
+      "width": "48",
+      "height": "40",
+      "gfxWidth": "64",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "12",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "pig_say1",
+        "pig_say2",
+        "pig_say3"
+      ],
+      "hurtSounds": [
+        "pig_death",
+        "pig_say1",
+        "pig_say2",
+        "pig_say3"
+      ],
+      "drops": [
+        {
+          "item": "raw_porkchop",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "cooked_porkchop",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Animal_AI",
+      "spawn": "LAND",
+      "gore": "gore_pig",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "zombie": {
+      "textureData": "assets\\textures\\npc\\zombie.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "useItemId": "stone_sword",
+      "toolUseRate": "0.1",
+      "spawn": "LAND",
+      "gore": "gore_zombie",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "husk": {
+      "textureData": "assets\\textures\\npc\\husk.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_husk",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "mummy": {
+      "textureData": "assets\\textures\\npc\\mummy.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "string",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_mummy",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "waste_mummy": {
+      "textureData": "assets\\textures\\npc\\waste_mummy.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "string",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_waste_mummy",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "villager_zombie": {
+      "textureData": "assets\\textures\\npc\\villager_zombie.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_villager_zombie",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "arrow_zombie": {
+      "textureData": "assets\\textures\\npc\\arrow_zombie.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "wooden_arrow",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_arrow_zombie",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "bald_zombie": {
+      "textureData": "assets\\textures\\npc\\bald_zombie.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_bald_zombie",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "doge_zombie": {
+      "textureData": "assets\\textures\\npc\\doge_zombie.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "8",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "wolf_bark1",
+        "wolf_bark2",
+        "wolf_bark3"
+      ],
+      "hurtSounds": [
+        "wolf_hurt1",
+        "wolf_hurt2",
+        "wolf_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "bone",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_doge_zombie",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "28"
+    }
+  },
+
+  {
+    "iron_zombie": {
+      "textureData": "assets\\textures\\npc\\iron_zombie.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "65",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "blaze_death",
+        "blaze_hit1",
+        "blaze_hit2",
+        "blaze_hit3"
+      ],
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "iron_ingot",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_iron_zombie",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "skeleton": {
+      "textureData": "assets\\textures\\npc\\skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "50",
+      "defense": "6",
+      "attack": "12",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "item": "wooden_arrow",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,150,150,150]",
+      "pAI": "Shooter_AI",
+      "useItemId": "wooden_bow",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_skull",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveShooterBone",
+      "boneStyle": "ARM_NORMAL",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "tainted_skeleton": {
+      "textureData": "assets\\textures\\npc\\tainted_skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "item": "fire_bullet",
+          "min": 0,
+          "max": 6
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,150,150,150]",
+      "pAI": "Shooter_AI",
+      "useItemId": "handgun",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_tainted_skeleton",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveShooterBone",
+      "boneStyle": "ARM_NORMAL",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "blood_skeleton": {
+      "textureData": "assets\\textures\\npc\\blood_skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "50",
+      "defense": "6",
+      "attack": "12",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "item": "blood_arrow",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,150,150,150]",
+      "pAI": "Shooter_AI",
+      "useItemId": "blood_bow",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_blood_skeleton",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveShooterBone",
+      "boneStyle": "ARM_NORMAL",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "angry_skeleton": {
+      "textureData": "assets\\textures\\npc\\angry_skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.25",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "50",
+      "defense": "6",
+      "attack": "12",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,150,150,150]",
+      "pAI": "Fighter_AI",
+      "useItemId": "stone_sword",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_angry_skeleton",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "black_skeleton": {
+      "textureData": "assets\\textures\\npc\\black_skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "6",
+      "attack": "12",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "item": "steel_ingot",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Fighter_AI",
+      "useItemId": "golden_pickaxe",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_black_skeleton",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "boney_skeleton": {
+      "textureData": "assets\\textures\\npc\\boney_skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.75",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "6",
+      "attack": "12",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 3,
+          "max": 9
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,150,150,150]",
+      "pAI": "Fighter_AI",
+      "useItemId": "iron_axe",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_boney_skeleton",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "creeper": {
+      "textureData": "assets\\textures\\npc\\creeper.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "50",
+      "gfxWidth": "32",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-14",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "8",
+      "attack": "10",
+      "knockBack": "2",
+      "knockBackDefense": "0.15",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "creeper_death",
+        "creeper1",
+        "creeper2",
+        "creeper3"
+      ],
+      "drops": [
+        {
+          "item": "gunpowder",
+          "min": 2,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Creeper_AI",
+      "spawn": "LAND",
+      "gore": "gore_creeper",
+      "magicRate": "22"
+    }
+  },
+
+  {
+    "flower_creeper": {
+      "textureData": "assets\\textures\\npc\\flower_creeper.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "50",
+      "gfxWidth": "32",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-14",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "8",
+      "attack": "10",
+      "knockBack": "2",
+      "knockBackDefense": "0.15",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "creeper_death",
+        "creeper1",
+        "creeper2",
+        "creeper3"
+      ],
+      "drops": [
+        {
+          "item": "gunpowder",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Creeper_AI",
+      "spawn": "LAND",
+      "gore": "gore_flower_creeper",
+      "magicRate": "22"
+    }
+  },
+
+  {
+    "tainted_creeper": {
+      "textureData": "assets\\textures\\npc\\tainted_creeper.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "50",
+      "gfxWidth": "32",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-14",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "8",
+      "attack": "10",
+      "knockBack": "2",
+      "knockBackDefense": "0.15",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "creeper_death",
+        "creeper1",
+        "creeper2",
+        "creeper3"
+      ],
+      "drops": [
+        {
+          "item": "gunpowder",
+          "min": 8,
+          "max": 12
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Creeper_AI",
+      "spawn": "LAND",
+      "gore": "gore_tainted_creeper",
+      "magicRate": "22"
+    }
+  },
+
+  {
+    "spider": {
+      "textureData": "assets\\textures\\npc\\spider.png",
+      "type": "ARTHROPODS",
+      "width": "32",
+      "height": "28",
+      "gfxWidth": "48",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "6",
+      "attack": "8",
+      "knockBack": "3",
+      "knockBackDefense": "0.30",
+      "gravity": "1",
+      "climbWall": "1",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "spider_say1",
+        "spider_say2",
+        "spider_say3"
+      ],
+      "hurtSounds": [
+        "spider_death",
+        "spider_say1",
+        "spider_say2",
+        "spider_say3"
+      ],
+      "drops": [
+        {
+          "item": "string",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "spider_eye",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "LAND",
+      "gore": "gore_spider",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "bat": {
+      "textureData": "assets\\textures\\npc\\bat.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "72",
+      "gfxHeight": "46",
+      "gfxOffsetX": "-20",
+      "gfxOffsetY": "-7",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "4",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "6",
+      "attack": "7",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "bat_death",
+        "bat_hurt1",
+        "bat_hurt2",
+        "bat_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "gray_feather",
+          "min": 3,
+          "max": 8
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Bat_AI",
+      "spawn": "AIR",
+      "gore": "gore_bat",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "jungle_bat": {
+      "textureData": "assets\\textures\\npc\\jungle_bat.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "72",
+      "gfxHeight": "46",
+      "gfxOffsetX": "-20",
+      "gfxOffsetY": "-7",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "4",
+      "shape": "BOX",
+      "maxSpeed": "4.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "6",
+      "attack": "7",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "bat_death",
+        "bat_hurt1",
+        "bat_hurt2",
+        "bat_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "gray_feather",
+          "min": 4,
+          "max": 8
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Bat_AI",
+      "spawn": "AIR",
+      "gore": "gore_jungle_bat",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "large_jungle_bat": {
+      "textureData": "assets\\textures\\npc\\large_jungle_bat.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "72",
+      "gfxHeight": "46",
+      "gfxOffsetX": "-20",
+      "gfxOffsetY": "-7",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "4",
+      "shape": "BOX",
+      "maxSpeed": "3.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "6",
+      "attack": "7",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "bat_death",
+        "bat_hurt1",
+        "bat_hurt2",
+        "bat_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "gray_feather",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Bat_AI",
+      "spawn": "AIR",
+      "gore": "gore_large_jungle_bat",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "blood_bat": {
+      "textureData": "assets\\textures\\npc\\blood_bat.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "72",
+      "gfxHeight": "46",
+      "gfxOffsetX": "-20",
+      "gfxOffsetY": "-7",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "4",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "6",
+      "attack": "7",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "bat_death",
+        "bat_hurt1",
+        "bat_hurt2",
+        "bat_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "gray_feather",
+          "min": 1,
+          "max": 13
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,0,0]",
+      "pAI": "Bat_AI",
+      "spawn": "AIR",
+      "gore": "gore_blood_bat",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "man_eater": {
+      "textureData": "assets\\textures\\npc\\man_eater.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "64",
+      "gfxHeight": "52",
+      "gfxOffsetX": "-16",
+      "gfxOffsetY": "-10",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "3.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "6",
+      "attack": "7",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Man_Eater_AI",
+      "spawn": "AIR",
+      "gore": "gore_man_eater",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "blood_eye": {
+      "textureData": "assets\\textures\\npc\\blood_eye.png",
+      "type": "NORMAL",
+      "width": "40",
+      "height": "40",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "4",
+      "shape": "BOX",
+      "maxSpeed": "1.25",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "6",
+      "attack": "15",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [
+        {
+          "item": "gold_nugget",
+          "min": 1,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Eyeball_AI",
+      "spawn": "AIR",
+      "gore": "gore_blood_eye",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "chicken": {
+      "textureData": "assets\\textures\\npc\\chicken.png",
+      "type": "ANIMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "28",
+      "gfxHeight": "28",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "chicken_say1",
+        "chicken_say2",
+        "chicken_say3"
+      ],
+      "hurtSounds": [
+        "chicken_hurt1",
+        "chicken_hurt1",
+        "chicken_hurt2"
+      ],
+      "drops": [
+        {
+          "item": "raw_chicken",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "feather",
+          "min": 0,
+          "max": 4
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "cooked_chicken",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "feather",
+          "min": 0,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Chicken_AI",
+      "spawn": "LAND",
+      "gore": "gore_chicken",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "cow": {
+      "textureData": "assets\\textures\\npc\\cow.png",
+      "type": "ANIMAL",
+      "width": "60",
+      "height": "60",
+      "gfxWidth": "64",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "15",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "cow_say1",
+        "cow_say2",
+        "cow_say3"
+      ],
+      "hurtSounds": [
+        "cow_hurt1",
+        "cow_hurt1",
+        "cow_hurt2",
+        "cow_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "raw_beef",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "steak",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Animal_AI",
+      "spawn": "LAND",
+      "gore": "gore_cow",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "sheep": {
+      "textureData": "assets\\textures\\npc\\sheep.png",
+      "type": "ANIMAL",
+      "width": "48",
+      "height": "40",
+      "gfxWidth": "64",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "15",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "sheep_say1",
+        "sheep_say2",
+        "sheep_say3"
+      ],
+      "hurtSounds": [
+        "sheep_say1",
+        "sheep_say1",
+        "sheep_say2",
+        "sheep_say3"
+      ],
+      "drops": [
+        {
+          "item": "wool_white",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "raw_mutton",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "wool_white",
+          "min": 2,
+          "max": 4
+        },
+        {
+          "item": "cooked_mutton",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Sheep_AI",
+      "pDraw": "Sheep_Draw",
+      "spawn": "LAND",
+      "gore": "gore_sheep",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "red_mushroom_cow": {
+      "textureData": "assets\\textures\\npc\\red_mushroom_cow.png",
+      "type": "ANIMAL",
+      "width": "60",
+      "height": "60",
+      "gfxWidth": "64",
+      "gfxHeight": "72",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "-12",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "15",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "cow_say1",
+        "cow_say2",
+        "cow_say3"
+      ],
+      "hurtSounds": [
+        "cow_hurt1",
+        "cow_hurt1",
+        "cow_hurt2",
+        "cow_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "raw_beef",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "item": "red_mushroom",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "steak",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "item": "red_mushroom",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Animal_AI",
+      "spawn": "LAND",
+      "gore": "gore_red_mushroom_cow",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "brown_mushroom_cow": {
+      "textureData": "assets\\textures\\npc\\brown_mushroom_cow.png",
+      "type": "ANIMAL",
+      "width": "60",
+      "height": "60",
+      "gfxWidth": "64",
+      "gfxHeight": "72",
+      "gfxOffsetX": "-2",
+      "gfxOffsetY": "-12",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "15",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "cow_say1",
+        "cow_say2",
+        "cow_say3"
+      ],
+      "hurtSounds": [
+        "cow_hurt1",
+        "cow_hurt1",
+        "cow_hurt2",
+        "cow_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "raw_beef",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "item": "brown_mushroom",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "steak",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        },
+        {
+          "item": "brown_mushroom",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Animal_AI",
+      "spawn": "LAND",
+      "gore": "gore_brown_mushroom_cow",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "cat": {
+      "textureData": "assets\\textures\\npc\\cat.png",
+      "type": "ANIMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-16",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "4.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "20",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "cat_meow1",
+        "cat_meow2",
+        "cat_meow3"
+      ],
+      "hurtSounds": [
+        "cat_hit1",
+        "cat_hit1",
+        "cat_hit2",
+        "cat_hit3"
+      ],
+      "drops": [
+        {
+          "item": "leather",
+          "min": 0,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Cat_AI",
+      "spawn": "LAND",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "white_rabbit": {
+      "textureData": "assets\\textures\\npc\\white_rabbit.png",
+      "type": "ANIMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "2",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "raw_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "cooked_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Rabbit_AI",
+      "spawn": "LAND",
+      "gore": "gore_white_rabbit",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "brown_rabbit": {
+      "textureData": "assets\\textures\\npc\\brown_rabbit.png",
+      "type": "ANIMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "2",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "raw_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "cooked_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Rabbit_AI",
+      "spawn": "LAND",
+      "gore": "gore_brown_rabbit",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "black_rabbit": {
+      "textureData": "assets\\textures\\npc\\black_rabbit.png",
+      "type": "ANIMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "2",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "raw_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "cooked_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Rabbit_AI",
+      "spawn": "LAND",
+      "gore": "gore_black_rabbit",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "yellow_rabbit": {
+      "textureData": "assets\\textures\\npc\\yellow_rabbit.png",
+      "type": "ANIMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "2",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "raw_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "burnDrops": [
+        {
+          "item": "rabbit_foot",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "rabbit_hide",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "cooked_rabbit",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Rabbit_AI",
+      "spawn": "LAND",
+      "gore": "gore_yellow_rabbit",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "squid": {
+      "textureData": "assets\\textures\\npc\\squid.png",
+      "type": "ANIMAL",
+      "width": "20",
+      "height": "20",
+      "gfxWidth": "32",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-6",
+      "gfxOffsetY": "-14",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "0.25",
+      "health": "10",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "ink_sac",
+          "min": 2,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Squid_AI",
+      "spawn": "WATER",
+      "gore": "gore_squid",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "turtle": {
+      "textureData": "assets\\textures\\npc\\turtle.png",
+      "type": "ANIMAL",
+      "width": "32",
+      "height": "24",
+      "gfxWidth": "48",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "0.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "35",
+      "defense": "10",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "turtle_death",
+        "turtle_hurt1",
+        "turtle_hurt2",
+        "turtle_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "scute",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "kelp",
+          "min": 0,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Animal_AI",
+      "spawn": "LAND",
+      "gore": "gore_turtle",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "pufferfish": {
+      "textureData": "assets\\textures\\npc\\pufferfish.png",
+      "type": "ANIMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "6.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "4",
+      "knockBackDefense": "0.30",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "pufferfish_hurt1",
+        "pufferfish_hurt1",
+        "pufferfish_hurt2"
+      ],
+      "drops": [
+        {
+          "item": "pufferfish",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "bone_meal",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Pufferfish_AI",
+      "spawn": "WATER",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "dolphin": {
+      "textureData": "assets\\textures\\npc\\dolphin.png",
+      "type": "ANIMAL",
+      "width": "72",
+      "height": "40",
+      "gfxWidth": "96",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "12.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "30",
+      "defense": "3",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.30",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "3",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "dolphin_hurt1",
+        "dolphin_hurt1",
+        "dolphin_hurt2",
+        "dolphin_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "raw_cod",
+          "min": 1,
+          "max": 3
+        },
+        {
+          "item": "raw_salmon",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Dolphin_AI",
+      "spawn": "WATER",
+      "gore": "gore_dolphin",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "wolf": {
+      "textureData": "assets\\textures\\npc\\wolf.png",
+      "type": "ANIMAL",
+      "width": "48",
+      "height": "48",
+      "gfxWidth": "80",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-16",
+      "gfxOffsetY": "-16",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "6.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "5",
+      "attack": "5",
+      "knockBack": "5",
+      "knockBackDefense": "0.35",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "1",
+      "antiLava": "0",
+      "saySounds": [
+        "wolf_bark1",
+        "wolf_bark2",
+        "wolf_bark3"
+      ],
+      "hurtSounds": [
+        "wolf_death",
+        "wolf_hurt1",
+        "wolf_hurt2",
+        "wolf_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "leather",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Wolf_AI",
+      "spawn": "LAND",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "enderman": {
+      "textureData": "assets\\textures\\npc\\enderman.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "64",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "10",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "80",
+      "defense": "9",
+      "attack": "18",
+      "knockBack": "5",
+      "knockBackDefense": "0.30",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "15",
+      "sunBurning": "0",
+      "angry": "1",
+      "antiLava": "0",
+      "saySounds": [
+        "enderman_idle1",
+        "enderman_idle2",
+        "enderman_idle3"
+      ],
+      "hurtSounds": [
+        "enderman_death",
+        "enderman_hit1",
+        "enderman_hit2",
+        "enderman_hit3"
+      ],
+      "drops": [
+        {
+          "item": "ender_pearl",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,50,50,50]",
+      "pAI": "Enderman_AI",
+      "spawn": "LAND",
+      "gore": "gore_enderman",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_NORMAL",
+      "magicRate": "20"
+    }
+  },
+
+  {
+    "zombie_pigman": {
+      "textureData": "assets\\textures\\npc\\zombie_pigman.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "10",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "1",
+      "antiLava": "1",
+      "saySounds": [
+        "zpig1",
+        "zpig2",
+        "zpig3"
+      ],
+      "hurtSounds": [
+        "zpigdeath",
+        "zpighurt1"
+      ],
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "gold_nugget",
+          "min": 0,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Zpig_AI",
+      "useItemId": "golden_sword",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_zombie_pigman",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "60"
+    }
+  },
+
+  {
+    "blaze": {
+      "textureData": "assets\\textures\\npc\\blaze.png",
+      "type": "SMITE",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "80",
+      "defense": "6",
+      "attack": "18",
+      "knockBack": "5",
+      "knockBackDefense": "0.40",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "10",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "blaze_death",
+        "blaze_hit1",
+        "blaze_hit2",
+        "blaze_hit3"
+      ],
+      "drops": [
+        {
+          "item": "blaze_rod",
+          "min": 3,
+          "max": 6
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Blaze_AI",
+      "spawn": "AIR",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "drowned": {
+      "textureData": "assets\\textures\\npc\\drowned.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "14",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [
+        "zombie_say1",
+        "zombie_say2",
+        "zombie_say3"
+      ],
+      "hurtSounds": [
+        "zombie_death",
+        "zombie_hurt1",
+        "zombie_hurt2"
+      ],
+      "noBurnSound": "1",
+      "drops": [
+        {
+          "item": "rotten_flesh",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "gold_ingot",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "spawn": "WATER",
+      "gore": "gore_drowned",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "guardian": {
+      "textureData": "assets\\textures\\npc\\guardian.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "52",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-10",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "100",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "5",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "10",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "blaze_death",
+        "blaze_hit1",
+        "blaze_hit2",
+        "blaze_hit3"
+      ],
+      "drops": [
+        {
+          "item": "guardian",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "prismarine_crystals",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "raw_cod",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "item": "prismarine_shard",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Guardian_AI",
+      "spawn": "WATER",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "ghast": {
+      "textureData": "assets\\textures\\npc\\ghast.png",
+      "type": "SMITE",
+      "width": "72",
+      "height": "72",
+      "gfxWidth": "96",
+      "gfxHeight": "96",
+      "gfxOffsetX": "-12",
+      "gfxOffsetY": "-12",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "80",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "5",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "1",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "14",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [
+        "ghast_moan1",
+        "ghast_moan2",
+        "ghast_moan3"
+      ],
+      "hurtSounds": [
+        "ghast_death",
+        "affectionate_scream"
+      ],
+      "drops": [
+        {
+          "item": "ghast_tear",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Ghast_AI",
+      "spawn": "AIR",
+      "magicRate": "20"
+    }
+  },
+
+  {
+    "ice_elf": {
+      "textureData": "assets\\textures\\npc\\ice_elf.png",
+      "type": "SMITE",
+      "width": "50",
+      "height": "50",
+      "gfxWidth": "50",
+      "gfxHeight": "50",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "8",
+      "maxSpeed": "2.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "10",
+      "attack": "7",
+      "knockBack": "5",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "1",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "6",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Ice_Elf_AI",
+      "spawn": "AIR",
+      "magicRate": "50"
+    }
+  },
+
+  {
+    "magma_elf": {
+      "textureData": "assets\\textures\\npc\\magma_elf.png",
+      "type": "SMITE",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "48",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "8",
+      "maxSpeed": "2.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "10",
+      "attack": "7",
+      "knockBack": "5",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,255,200,0]",
+      "pAI": "Magma_Elf_AI",
+      "spawn": "LAND",
+      "magicRate": "50"
+    }
+  },
+
+  {
+    "waste_ghost": {
+      "textureData": "assets\\textures\\npc\\waste_ghost.png",
+      "type": "SMITE",
+      "width": "38",
+      "height": "38",
+      "gfxWidth": "38",
+      "gfxHeight": "38",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "maxSpeed": "2.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "10",
+      "attack": "7",
+      "knockBack": "5",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Waste_Ghost_AI",
+      "spawn": "AIR",
+      "magicRate": "50"
+    }
+  },
+
+  {
+    "large_block_slime": {
+      "textureData": "assets\\textures\\npc\\large_block_slime.png",
+      "type": "NORMAL",
+      "width": "48",
+      "height": "48",
+      "gfxWidth": "64",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-16",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "slime_block",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,120,200,100]",
+      "pAI": "Block_Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "50"
+    }
+  },
+
+  {
+    "block_slime": {
+      "textureData": "assets\\textures\\npc\\block_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "20",
+      "defense": "0",
+      "attack": "5",
+      "knockBack": "2",
+      "knockBackDefense": "0.03",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,120,200,100]",
+      "pAI": "Block_Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "50"
+    }
+  },
+
+  {
+    "large_ice_slime": {
+      "textureData": "assets\\textures\\npc\\large_ice_slime.png",
+      "type": "NORMAL",
+      "width": "48",
+      "height": "48",
+      "gfxWidth": "64",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-16",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "slime_block",
+          "min": 0,
+          "max": 1
+        },
+        {
+          "item": "ice",
+          "min": 3,
+          "max": 6
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,0,200,255]",
+      "pAI": "Block_Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "50"
+    }
+  },
+
+  {
+    "ice_slime": {
+      "textureData": "assets\\textures\\npc\\ice_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "20",
+      "defense": "0",
+      "attack": "5",
+      "knockBack": "2",
+      "knockBackDefense": "0.03",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "ice",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,0,200,255]",
+      "pAI": "Block_Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "large_waste_block_slime": {
+      "textureData": "assets\\textures\\npc\\large_waste_block_slime.png",
+      "type": "NORMAL",
+      "width": "48",
+      "height": "48",
+      "gfxWidth": "64",
+      "gfxHeight": "64",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "-16",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "slime_block",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,160,100,60]",
+      "pAI": "Block_Slime_AI",
+      "spawn": "LAND"
+    }
+  },
+
+  {
+    "waste_block_slime": {
+      "textureData": "assets\\textures\\npc\\waste_block_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "20",
+      "defense": "0",
+      "attack": "5",
+      "knockBack": "2",
+      "knockBackDefense": "0.03",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,160,100,60]",
+      "pAI": "Block_Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "green_slime": {
+      "textureData": "assets\\textures\\npc\\green_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "16",
+      "defense": "0",
+      "attack": "4",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,120,200,100]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "large_green_slime": {
+      "textureData": "assets\\textures\\npc\\large_green_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,120,200,100]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "large_black_slime": {
+      "textureData": "assets\\textures\\npc\\large_black_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "50",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,77,77,77]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "large_waste_slime": {
+      "textureData": "assets\\textures\\npc\\large_waste_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,100,70,40]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "large_tainted_slime": {
+      "textureData": "assets\\textures\\npc\\large_tainted_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "1",
+      "paticularColor": "[255,144,100,194]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "blood_slime": {
+      "textureData": "assets\\textures\\npc\\blood_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "4",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,90,80]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "yellow_slime": {
+      "textureData": "assets\\textures\\npc\\yellow_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "24",
+      "defense": "0",
+      "attack": "5",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,160,160,0]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "desert_slime": {
+      "textureData": "assets\\textures\\npc\\desert_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "11.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,220,160,0]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "large_desert_slime": {
+      "textureData": "assets\\textures\\npc\\large_desert_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-4",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "11.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "0",
+      "attack": "8",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,220,160,0]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "blue_slime": {
+      "textureData": "assets\\textures\\npc\\blue_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.5",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "40",
+      "defense": "0",
+      "attack": "6",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 4
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,0,0,60]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "purple_slime": {
+      "textureData": "assets\\textures\\npc\\purple_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "4.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "50",
+      "defense": "0",
+      "attack": "7",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "6",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,60,0,60]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "snow_slime": {
+      "textureData": "assets\\textures\\npc\\snow_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "16",
+      "defense": "0",
+      "attack": "4",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,160,220,255]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "tainted_slime": {
+      "textureData": "assets\\textures\\npc\\tainted_slime.png",
+      "type": "NORMAL",
+      "width": "24",
+      "height": "24",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "4.0",
+      "jumpForce": "12.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "50",
+      "defense": "0",
+      "attack": "8",
+      "knockBack": "2",
+      "knockBackDefense": "0.05",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "slimeball",
+          "min": 1,
+          "max": 6
+        }
+      ],
+      "special": "1",
+      "paticularColor": "[255,155,88,226]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "magma_slime": {
+      "textureData": "assets\\textures\\npc\\magma_slime.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "40",
+      "gfxHeight": "40",
+      "gfxOffsetX": "-4",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "16",
+      "shape": "BOX",
+      "maxSpeed": "4.0",
+      "jumpForce": "8.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "10",
+      "attack": "12",
+      "knockBack": "2",
+      "knockBackDefense": "0.30",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "slime_attack1",
+        "slime_attack1",
+        "slime_attack2"
+      ],
+      "drops": [
+        {
+          "item": "magma_cream",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "2",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Slime_AI",
+      "spawn": "LAND",
+      "magicRate": "80"
+    }
+  },
+
+  {
+    "phantom": {
+      "textureData": "assets\\textures\\npc\\phantom.png",
+      "type": "SMITE",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "96",
+      "gfxHeight": "96",
+      "gfxOffsetX": "-32",
+      "gfxOffsetY": "-32",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "2",
+      "attack": "18",
+      "knockBack": "6",
+      "knockBackDefense": "0.20",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "phantom_death",
+        "phantom_hurt1",
+        "phantom_hurt2",
+        "phantom_hurt3"
+      ],
+      "drops": [
+        {
+          "item": "phantom_membrane",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,50,50,50]",
+      "pAI": "Phantom_AI",
+      "spawn": "AIR",
+      "gore": "gore_phantom",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "eagle": {
+      "textureData": "assets\\textures\\npc\\eagle.png",
+      "type": "SMITE",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "96",
+      "gfxHeight": "96",
+      "gfxOffsetX": "-32",
+      "gfxOffsetY": "-32",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "5.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "2",
+      "attack": "18",
+      "knockBack": "6",
+      "knockBackDefense": "0.20",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [
+        {
+          "item": "gray_feather",
+          "min": 3,
+          "max": 7
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Eagle_AI",
+      "spawn": "AIR",
+      "gore": "gore_eagle",
+      "magicRate": "40"
+    }
+  },
+
+  {
+    "magma_birdo": {
+      "textureData": "assets\\textures\\npc\\magma_birdo.png",
+      "type": "SMITE",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "96",
+      "gfxHeight": "96",
+      "gfxOffsetX": "-32",
+      "gfxOffsetY": "-32",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "2",
+      "attack": "18",
+      "knockBack": "6",
+      "knockBackDefense": "0.20",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "1",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [
+        {
+          "item": "gray_feather",
+          "min": 3,
+          "max": 7
+        },
+        {
+          "item": "gunpowder",
+          "min": 1,
+          "max": 3
+        }
+      ],
+      "special": "1",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Eagle_AI",
+      "spawn": "AIR",
+      "gore": "gore_magma_birdo",
+      "magicRate": "30"
+    }
+  },
+
+  {
+    "meteor": {
+      "textureData": "assets\\textures\\npc\\meteor.png",
+      "type": "SMITE",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "32",
+      "gfxHeight": "32",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "2",
+      "attack": "18",
+      "knockBack": "6",
+      "knockBackDefense": "0.20",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [
+        {
+          "item": "gunpowder",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "1",
+      "paticularColor": "[255,200,100,50]",
+      "pAI": "Meteor_AI",
+      "spawn": "AIR",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "shulker": {
+      "textureData": "assets\\textures\\npc\\shulker.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "32",
+      "gfxHeight": "48",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "-8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "75",
+      "defense": "10",
+      "attack": "17",
+      "knockBack": "6",
+      "knockBackDefense": "0.80",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "shulker_hit1",
+        "shulker_hit1"
+      ],
+      "drops": [
+        {
+          "item": "shulker_shell",
+          "min": 2,
+          "max": 5
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,120,100,80]",
+      "pAI": "Shulker_AI",
+      "spawn": "AIR",
+      "gore": "gore_shulker",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "evoker": {
+      "textureData": "assets\\textures\\npc\\evoker.png",
+      "type": "NORMAL",
+      "width": "28",
+      "height": "48",
+      "gfxWidth": "40",
+      "gfxHeight": "48",
+      "gfxOffsetX": "-6",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "0.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "60",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "2",
+      "knockBackDefense": "0.10",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "10",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "shulker_hit1",
+        "shulker_hit1"
+      ],
+      "drops": [
+        {
+          "item": "emerald",
+          "min": 0,
+          "max": 1
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,33,33,33]",
+      "pAI": "Evoker_AI",
+      "spawn": "LAND",
+      "gore": "gore_evoker",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "wither_skeleton": {
+      "textureData": "assets\\textures\\npc\\wither_skeleton.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "64",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "10",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.5",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "100",
+      "defense": "13",
+      "attack": "20",
+      "knockBack": "7",
+      "knockBackDefense": "0.60",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "10",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "skeleton_death",
+        "skeleton1",
+        "skeleton2",
+        "skeleton3"
+      ],
+      "drops": [
+        {
+          "item": "bone",
+          "min": 0,
+          "max": 2
+        },
+        {
+          "item": "coal",
+          "min": 0,
+          "max": 2
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,33,33,33]",
+      "pAI": "Fighter_AI",
+      "useItemId": "stone_sword",
+      "toolUseRate": "1.0",
+      "spawn": "LAND",
+      "gore": "gore_wither_skeleton",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_NORMAL",
+      "magicRate": "25"
+    }
+  },
+
+  {
+    "ender_dragon": {
+      "textureData": "assets\\textures\\npc\\ender_dragon.png",
+      "type": "BOSS",
+      "width": "240",
+      "height": "200",
+      "gfxWidth": "360",
+      "gfxHeight": "320",
+      "gfxOffsetX": "-60",
+      "gfxOffsetY": "-60",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "4",
+      "shape": "BOX",
+      "maxSpeed": "9.0",
+      "jumpForce": "12.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "100",
+      "defense": "20",
+      "attack": "20",
+      "knockBack": "10",
+      "knockBackDefense": "0.80",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "66",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,33,33,33]",
+      "pAI": "Ender_Dragon_AI",
+      "spawn": "AIR",
+      "magicRate": "1"
+    }
+  },
+
+  {
+    "light_blue_butterfly": {
+      "textureData": "assets\\textures\\npc\\light_blue_butterfly.png",
+      "type": "ANIMAL",
+      "width": "16",
+      "height": "16",
+      "gfxWidth": "22",
+      "gfxHeight": "22",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-3",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "0.25",
+      "health": "5",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "0",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,100,150,200]",
+      "pAI": "Butterfly_AI",
+      "spawn": "AIR",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "yellow_butterfly": {
+      "textureData": "assets\\textures\\npc\\yellow_butterfly.png",
+      "type": "ANIMAL",
+      "width": "16",
+      "height": "16",
+      "gfxWidth": "22",
+      "gfxHeight": "22",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-3",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "0.25",
+      "health": "5",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "0",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,200,200,0]",
+      "pAI": "Butterfly_AI",
+      "spawn": "AIR",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "red_butterfly": {
+      "textureData": "assets\\textures\\npc\\red_butterfly.png",
+      "type": "ANIMAL",
+      "width": "16",
+      "height": "16",
+      "gfxWidth": "22",
+      "gfxHeight": "22",
+      "gfxOffsetX": "-3",
+      "gfxOffsetY": "-3",
+      "frameStyle": "0",
+      "frames": "1",
+      "frameSpeed": "6",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "0.25",
+      "health": "5",
+      "defense": "0",
+      "attack": "1",
+      "knockBack": "0",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "1",
+      "exps": "0",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "rabbit_hurt1",
+        "rabbit_hurt1",
+        "rabbit_hurt2",
+        "rabbit_hurt3"
+      ],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,200,0,0]",
+      "pAI": "Butterfly_AI",
+      "spawn": "AIR",
+      "magicRate": "0"
+    }
+  },
+
+  {
+    "worm_head": {
+      "textureData": "assets\\textures\\npc\\worm_head.png",
+      "type": "ARTHROPODS",
+      "width": "78",
+      "height": "52",
+      "gfxWidth": "78",
+      "gfxHeight": "52",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "ROTATED_BOX",
+      "maxSpeed": "5.0",
+      "jumpForce": "1.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "2020",
+      "defense": "10",
+      "attack": "25",
+      "knockBack": "10",
+      "knockBackDefense": "99.0",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "400",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "linkNpcId": "worm_body",
+      "linkValue": "72",
+      "linkCount": "24",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [
+        {
+          "item": "nether_destroyer_loot",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "super_air_sword",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "netherite_ingot",
+          "min": 2,
+          "max": 3
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Hell_Destoryer_Head_AI",
+      "pOnKilled": "OnNetherDestroyerKilled",
+      "spawn": "AIR",
+      "isBoss": "1",
+      "noShowHp": "1",
+      "gore": "gore_worm_head",
+      "magicRate": "1"
+    }
+  },
+
+  {
+    "worm_body": {
+      "textureData": "assets\\textures\\npc\\worm_body.png",
+      "type": "ARTHROPODS",
+      "width": "46",
+      "height": "52",
+      "gfxWidth": "46",
+      "gfxHeight": "52",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "ROTATED_BOX",
+      "maxSpeed": "5.0",
+      "jumpForce": "1.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "80",
+      "defense": "10",
+      "attack": "25",
+      "knockBack": "10",
+      "knockBackDefense": "99.0",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "linkNpcId": "worm_tail",
+      "linkValue": "34",
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Snake_Body_AI",
+      "spawn": "AIR",
+      "noShowHp": "1",
+      "gore": "gore_worm_body"
+    }
+  },
+
+  {
+    "worm_tail": {
+      "textureData": "assets\\textures\\npc\\worm_tail.png",
+      "type": "ARTHROPODS",
+      "width": "60",
+      "height": "64",
+      "gfxWidth": "60",
+      "gfxHeight": "64",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "ROTATED_BOX",
+      "maxSpeed": "5.0",
+      "jumpForce": "1.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "80",
+      "defense": "10",
+      "attack": "25",
+      "knockBack": "10",
+      "knockBackDefense": "99.0",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "linkValue": "48",
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Snake_Body_AI",
+      "spawn": "AIR",
+      "noShowHp": "1",
+      "gore": "gore_worm_tail"
+    }
+  },
+
+  {
+    "vine_man_eater_head": {
+      "textureData": "assets\\textures\\npc\\vine_man_eater_head.png",
+      "type": "ARTHROPODS",
+      "width": "50",
+      "height": "32",
+      "gfxWidth": "50",
+      "gfxHeight": "32",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "ROTATED_BOX",
+      "maxSpeed": "3.0",
+      "jumpForce": "1.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "20",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "10",
+      "knockBackDefense": "99.0",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "20",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "linkNpcId": "vine_man_eater_body",
+      "linkValue": "34",
+      "linkCount": "24",
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Snake_Head_AI",
+      "spawn": "AIR",
+      "magicRate": "10"
+    }
+  },
+
+  {
+    "vine_man_eater_body": {
+      "textureData": "assets\\textures\\npc\\vine_man_eater_body.png",
+      "type": "ARTHROPODS",
+      "width": "44",
+      "height": "32",
+      "gfxWidth": "44",
+      "gfxHeight": "32",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "ROTATED_BOX",
+      "maxSpeed": "5.0",
+      "jumpForce": "1.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "10",
+      "knockBackDefense": "99.0",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "linkNpcId": "vine_man_eater_tail",
+      "linkValue": "36",
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Snake_Body_AI",
+      "spawn": "AIR",
+      "noShowHp": "1"
+    }
+  },
+
+  {
+    "vine_man_eater_tail": {
+      "textureData": "assets\\textures\\npc\\vine_man_eater_tail.png",
+      "type": "ARTHROPODS",
+      "width": "54",
+      "height": "40",
+      "gfxWidth": "54",
+      "gfxHeight": "40",
+      "gfxOffsetX": "0",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "1",
+      "frameSpeed": "8",
+      "shape": "ROTATED_BOX",
+      "maxSpeed": "5.0",
+      "jumpForce": "1.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "10",
+      "attack": "10",
+      "knockBack": "10",
+      "knockBackDefense": "99.0",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "7",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "linkValue": "46",
+      "saySounds": [],
+      "hurtSounds": [],
+      "drops": [],
+      "special": "0",
+      "paticularColor": "[255,100,100,100]",
+      "pAI": "Snake_Body_AI",
+      "spawn": "AIR",
+      "noShowHp": "1"
+    }
+  },
+
+  {
+    "snow_queen": {
+      "textureData": "assets\\textures\\npc\\snow_queen.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "1500",
+      "defense": "6",
+      "attack": "20",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "1",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "350",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [
+        {
+          "item": "snow_queen_loot",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "ice_bow",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "blue_ice",
+          "min": 12,
+          "max": 16
+        }
+      ],
+      "special": "0",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Snow_Queen_AI",
+      "spawn": "LAND",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveSnowQueenBone",
+      "pOnKilled": "OnSnowQueenKilled",
+      "isBoss": "1",
+      "noShowHp": "1",
+      "magicRate": "1"
+    }
+  },
+
+  {
+    "small_hell_eater": {
+      "textureData": "assets\\textures\\npc\\small_hell_eater.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "48",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "3.5",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "10",
+      "defense": "6",
+      "attack": "16",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack1"
+      ],
+      "drops": [],
+      "special": "1",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Man_Eater_AI",
+      "spawn": "AIR",
+      "gore": "gore_small_hell_eater",
+      "magicRate": "200"
+    }
+  },
+
+
+  {
+    "snow_guardian": {
+      "textureData": "assets\\textures\\npc\\snow_guardian.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "2.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "16",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "8",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [],
+      "special": "1",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Fighter_AI",
+      "useItemId": "stone_sword",
+      "toolUseRate": "1.0",
+      "spawn": "AIR",
+      "spawnWallA": "aurora_block",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveZombieBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "100"
+    }
+  },
+
+
+  {
+    "snow_guardian_archer": {
+      "textureData": "assets\\textures\\npc\\snow_guardian.png",
+      "type": "SMITE",
+      "width": "24",
+      "height": "46",
+      "gfxWidth": "48",
+      "gfxHeight": "48",
+      "gfxOffsetX": "4",
+      "gfxOffsetY": "8",
+      "frameStyle": "1",
+      "frames": "4",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "1.0",
+      "jumpForce": "9.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "45",
+      "defense": "6",
+      "attack": "16",
+      "knockBack": "5",
+      "knockBackDefense": "0.50",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "0",
+      "noFixByBlock": "0",
+      "friendly": "0",
+      "exps": "8",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "0",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack2"
+      ],
+      "drops": [],
+      "special": "1",
+      "paticularColor": "[255,200,50,20]",
+      "pAI": "Shooter_AI",
+      "useItemId": "ice_bow",
+      "toolUseRate": "1.0",
+      "spawn": "AIR",
+      "spawnWallA": "aurora_block",
+      "usingBoneModule": "1",
+      "pCreateBone": "CreateHumanBone",
+      "pSolveBone": "SolveShooterBone",
+      "boneStyle": "ARM_EXTEND",
+      "magicRate": "100"
+    }
+  },
+
+  {
+    "small_fire_hell_eater": {
+      "textureData": "assets\\textures\\npc\\small_fire_hell_eater.png",
+      "type": "NORMAL",
+      "width": "32",
+      "height": "32",
+      "gfxWidth": "48",
+      "gfxHeight": "32",
+      "gfxOffsetX": "-8",
+      "gfxOffsetY": "0",
+      "frameStyle": "1",
+      "frames": "2",
+      "frameSpeed": "8",
+      "shape": "BOX",
+      "maxSpeed": "12.0",
+      "jumpForce": "5.0",
+      "disappearTime": "750",
+      "spawnCount": "1.0",
+      "health": "8",
+      "defense": "6",
+      "attack": "16",
+      "knockBack": "4",
+      "knockBackDefense": "0.10",
+      "gravity": "0",
+      "climbWall": "0",
+      "foreground": "1",
+      "noFixByBlock": "1",
+      "friendly": "0",
+      "exps": "5",
+      "sunBurning": "0",
+      "angry": "0",
+      "antiLava": "1",
+      "saySounds": [],
+      "hurtSounds": [
+        "attack1",
+        "attack1"
+      ],
+      "drops": [],
+      "special": "2",
+      "paticularColor": "[255,50,50,20]",
+      "pAI": "Man_Eater_AI",
+      "spawn": "AIR",
+      "gore": "gore_small_hell_eater",
+      "magicRate": "200"
+    }
+  }
+]

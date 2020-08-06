@@ -1,0 +1,5171 @@
+[
+  {
+    "result": "oak_plank",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_oak"
+  },
+
+  {
+    "result": "birch_plank",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_birch"
+  },
+
+  {
+    "result": "jungle_plank",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_jungle"
+  },
+
+  {
+    "result": "acacia_plank",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_acacia"
+  },
+
+  {
+    "result": "dark_oak_plank",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_dark_oak"
+  },
+
+  {
+    "result": "spruce_plank",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_spruce"
+  },
+
+  {
+    "result": "palm_plank",
+    "count": "5",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_palm"
+  },
+
+  {
+    "result": "volcano_plank",
+    "count": "6",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_volcano"
+  },
+
+  {
+    "result": "tainted_plank",
+    "count": "5",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wood_tainted"
+  },
+
+  {
+    "result": "platform_oak",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "oak_plank"
+  },
+
+  {
+    "result": "platform_spruce",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "spruce_plank"
+  },
+
+  {
+    "result": "platform_birch",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "birch_plank"
+  },
+
+  {
+    "result": "platform_jungle",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "jungle_plank"
+  },
+
+  {
+    "result": "platform_acacia",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "acacia_plank"
+  },
+
+  {
+    "result": "platform_dark_oak",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dark_oak_plank"
+  },
+
+  {
+    "result": "platform_palm",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "palm_plank"
+  },
+
+  {
+    "result": "platform_volcano",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "volcano_plank"
+  },
+
+  {
+    "result": "platform_tainted",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "tainted_plank"
+  },
+
+  {
+    "result": "platform_end_stone",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "end_stone"
+  },
+
+  {
+    "result": "platform_nether_brick",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "nether_brick"
+  },
+
+  {
+    "result": "platform_prismarine",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "prismarine_brick"
+  },
+
+  {
+    "result": "platform_prismarine_dark",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "prismarine_dark"
+  },
+
+  {
+    "result": "platform_purpur",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "purpur_block"
+  },
+
+  {
+    "result": "platform_quartz",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_quartz"
+  },
+
+  {
+    "result": "platform_red_sand_stone",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "red_sand_stone"
+  },
+
+  {
+    "result": "platform_sandstone",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "sandstone"
+  },
+
+  {
+    "result": "platform_stone_brick",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "stone_brick"
+  },
+
+  {
+    "result": "coarse_dirt",
+    "count": "4",
+    "table1": "ABO",
+    "table2": "BAO",
+    "table3": "OOO",
+    "item1": "dirt",
+    "item2": "gravel"
+  },
+
+  {
+    "result": "cobblestone_fence",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "OOO",
+    "item1": "cobblestone"
+  },
+
+  {
+    "result": "mossy_cobblestone_fence",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "OOO",
+    "item1": "cobblestone_mossy"
+  },
+
+  {
+    "result": "dispenser",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "ACA",
+    "item1": "cobblestone",
+    "item2": "wooden_bow",
+    "item3": "redstone"
+  },
+
+  {
+    "result": "furnace",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AAA",
+    "item1": "cobblestone"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "cobblestone_mossy",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "cobblestone",
+    "item2": "vine"
+  },
+
+  {
+    "result": "book_block",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "book"
+  },
+
+  {
+    "result": "bowl",
+    "count": "4",
+    "table1": "AOA",
+    "table2": "OAO",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "chest",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AAA",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "crafting_table",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "jukebox",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "diamond"
+  },
+
+  {
+    "result": "fence_nether",
+    "count": "6",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "OOO",
+    "item1": "nether_brick_block"
+  },
+
+  {
+    "result": "fence_oak",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "oak_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_birch",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "birch_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_spruce",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "spruce_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_jungle",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "jungle_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_acacia",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "acacia_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_dark_oak",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "dark_oak_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_palm",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "palm_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_volcano",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "volcano_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "fence_tainted",
+    "count": "3",
+    "table1": "ABA",
+    "table2": "ABA",
+    "table3": "OOO",
+    "item1": "tainted_plank",
+    "item2": "stick"
+  },
+
+  {
+    "result": "sign",
+    "count": "3",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "OBO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "stick"
+  },
+
+  {
+    "result": "stick",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "wooden_door_oak",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "oak_plank"
+  },
+
+  {
+    "result": "wooden_door_birch",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "birch_plank"
+  },
+
+  {
+    "result": "wooden_door_spruce",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "spruce_plank"
+  },
+
+  {
+    "result": "wooden_door_jungle",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "jungle_plank"
+  },
+
+  {
+    "result": "wooden_door_acacia",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "acacia_plank"
+  },
+
+  {
+    "result": "wooden_door_dark_oak",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "dark_oak_plank"
+  },
+
+  {
+    "result": "iron_door",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "wooden_door_palm",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "palm_plank"
+  },
+
+  {
+    "result": "wooden_door_volcano",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "volcano_plank"
+  },
+
+  {
+    "result": "wooden_door_tainted",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "tainted_plank"
+  },
+
+  {
+    "result": "wooden_pressure_plate",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "stone_pressure_plate",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "stone"
+  },
+
+  {
+    "result": "iron_pressure_plate",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "golden_pressure_plate",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "gold_ingot"
+  },
+
+  {
+    "result": "wooden_button",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "stone_button",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "stone"
+  },
+
+  {
+    "result": "torch",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "slimeball",
+    "item2": "stick"
+  },
+
+  {
+    "result": "torch",
+    "count": "6",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "coal",
+    "item2": "stick"
+  },
+
+  {
+    "result": "torch",
+    "count": "6",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "charcoal",
+    "item2": "stick"
+  },
+
+  {
+    "result": "end_stone_brick",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "end_stone"
+  },
+
+  {
+    "result": "purpur_block",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "popped_chorus_fruits"
+  },
+
+  {
+    "result": "prismarine",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "prismarine_shard"
+  },
+
+  {
+    "result": "prismarine_brick",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "prismarine_shard"
+  },
+
+  {
+    "result": "prismarine_dark",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "prismarine_shard",
+    "item2": "ink_sac"
+  },
+
+  {
+    "result": "prismarine_dark",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "prismarine_shard",
+    "item2": "dye_black"
+  },
+
+  {
+    "result": "bone_block",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "bone_meal"
+  },
+
+  {
+    "result": "block_gold",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "gold_ingot"
+  },
+
+  {
+    "result": "cobweb",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "string"
+  },
+
+  {
+    "result": "string",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "cobweb"
+  },
+
+  {
+    "result": "glowstone",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "glowstone_dust"
+  },
+
+  {
+    "result": "nether_brick_block",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "nether_brick"
+  },
+
+  {
+    "result": "red_nether_brick",
+    "count": "1",
+    "table1": "BAO",
+    "table2": "ABO",
+    "table3": "OOO",
+    "item1": "nether_brick",
+    "item2": "nether_wart"
+  },
+
+  {
+    "result": "block_emerald",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "emerald"
+  },
+
+  {
+    "result": "sandstone",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "sand"
+  },
+
+  {
+    "result": "red_sand_stone",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "red_sand"
+  },
+
+  {
+    "result": "sandstone_carved",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "sandstone"
+  },
+
+  {
+    "result": "red_sand_carved",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "red_sand_stone"
+  },
+
+  {
+    "result": "hay_bale",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "wheat"
+  },
+
+  {
+    "result": "block_coal",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "coal"
+  },
+
+  {
+    "result": "ice_packed",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "ice"
+  },
+
+  {
+    "result": "blue_ice",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "ice_packed"
+  },
+
+  {
+    "result": "sea_lantern",
+    "count": "1",
+    "table1": "BAB",
+    "table2": "AAA",
+    "table3": "BAB",
+    "item1": "prismarine_crystals",
+    "item2": "prismarine_shard"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "andesite",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "cobblestone",
+    "item2": "diorite"
+  },
+
+  {
+    "result": "andesite_polished",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "andesite"
+  },
+
+  {
+    "result": "diorite",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "BAO",
+    "table3": "OOO",
+    "item1": "cobblestone",
+    "item2": "quartz"
+  },
+
+  {
+    "result": "diorite_polished",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "diorite"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "granite",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diorite",
+    "item2": "quartz"
+  },
+
+  {
+    "result": "granite_polished",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "granite"
+  },
+
+  {
+    "result": "block_diamond",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "diamond"
+  },
+
+  {
+    "result": "block_diamond",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "diamond"
+  },
+
+  {
+    "result": "terracotta_white",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_white"
+  },
+
+  {
+    "result": "terracotta_white",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "terracotta_orange",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_orange"
+  },
+
+  {
+    "result": "terracotta_magenta",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_magenta"
+  },
+
+  {
+    "result": "terracotta_light_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_light_blue"
+  },
+
+  {
+    "result": "terracotta_yellow",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "result": "terracotta_lime",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_lime"
+  },
+
+  {
+    "result": "terracotta_pink",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_pink"
+  },
+
+  {
+    "result": "terracotta_gray",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_gray"
+  },
+
+  {
+    "result": "terracotta_light_gray",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_light_gray"
+  },
+
+  {
+    "result": "terracotta_cyan",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_cyan"
+  },
+
+  {
+    "result": "terracotta_purple",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_purple"
+  },
+
+  {
+    "result": "terracotta_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_blue"
+  },
+
+  {
+    "result": "terracotta_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "lapis_lazuli"
+  },
+
+  {
+    "result": "terracotta_brown",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_brown"
+  },
+
+  {
+    "result": "terracotta_green",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_green"
+  },
+
+  {
+    "result": "terracotta_red",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_red"
+  },
+
+  {
+    "result": "terracotta_black",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "dye_black"
+  },
+
+  {
+    "result": "terracotta_black",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_TERRACOTTA",
+    "item2": "ink_sac"
+  },
+
+  {
+    "result": "block_lapis",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "lapis_lazuli"
+  },
+
+  {
+    "result": "wool_white",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "string"
+  },
+
+  {
+    "result": "wool_orange",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_orange"
+  },
+
+  {
+    "result": "wool_magenta",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_magenta"
+  },
+
+  {
+    "result": "wool_light_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_light_blue"
+  },
+
+  {
+    "result": "wool_yellow",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "result": "wool_lime",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_lime"
+  },
+
+  {
+    "result": "wool_pink",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_pink"
+  },
+
+  {
+    "result": "wool_gray",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_gray"
+  },
+
+  {
+    "result": "wool_light_gray",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_light_gray"
+  },
+
+  {
+    "result": "wool_cyan",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_cyan"
+  },
+
+  {
+    "result": "wool_purple",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_purple"
+  },
+
+  {
+    "result": "wool_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_blue"
+  },
+
+  {
+    "result": "wool_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "lapis_lazuli"
+  },
+
+  {
+    "result": "wool_brown",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_brown"
+  },
+
+  {
+    "result": "wool_green",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_green"
+  },
+
+  {
+    "result": "wool_red",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_red"
+  },
+
+  {
+    "result": "wool_black",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "dye_black"
+  },
+
+  {
+    "result": "wool_black",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wool_white",
+    "item2": "ink_sac"
+  },
+
+  {
+    "result": "stone_brick",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "stone"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "stone_brick_mossy",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "stone_brick",
+    "item2": "vine"
+  },
+
+  {
+    "result": "stone_brick_carved",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "stone_brick"
+  },
+
+  {
+    "result": "block_iron",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "watermelon",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "melon_slice"
+  },
+
+  {
+    "result": "ender_chest",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "obsidian",
+    "item2": "ender_eye"
+  },
+
+  {
+    "result": "anvil",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "BBB",
+    "item1": "block_iron",
+    "item2": "iron_ingot"
+  },
+
+  {
+    "result": "painting_2x2",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "stick",
+    "group2": "GROUP_WOOL"
+  },
+
+  {
+    "result": "painting_4x2",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_2x2"
+  },
+
+  {
+    "result": "painting_2x4",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_4x2"
+  },
+
+  {
+    "result": "painting_4x4",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_2x4"
+  },
+
+  {
+    "result": "painting_8x4",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_4x4"
+  },
+
+  {
+    "result": "painting_8x6",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_8x4"
+  },
+
+  {
+    "result": "painting_8x8",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_8x6"
+  },
+
+  {
+    "result": "painting_2x2",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "painting_8x8"
+  },
+
+  {
+    "result": "enchantment_table",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "BCB",
+    "table3": "CCC",
+    "item1": "book",
+    "item2": "diamond",
+    "item3": "obsidian"
+  },
+
+  {
+    "result": "slime_block",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "slimeball"
+  },
+
+  {
+    "result": "redstone_lamp",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "ABA",
+    "table3": "OAO",
+    "item1": "redstone",
+    "item2": "glowstone"
+  },
+
+  {
+    "result": "block_redstone",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "redstone"
+  },
+
+  {
+    "result": "redstone",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_redstone"
+  },
+
+  {
+    "result": "daylight_sensor",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "CCC",
+    "item1": "glass",
+    "item2": "quartz",
+    "group3": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "tnt",
+    "count": "1",
+    "table1": "BAB",
+    "table2": "ABA",
+    "table3": "BAB",
+    "item1": "sand",
+    "item2": "gunpowder"
+  },
+
+  {
+    "result": "tnt",
+    "count": "1",
+    "table1": "BAB",
+    "table2": "ABA",
+    "table3": "BAB",
+    "item1": "red_sand",
+    "item2": "gunpowder"
+  },
+
+  {
+    "result": "lever",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "stick",
+    "item2": "cobblestone"
+  },
+
+  {
+    "result": "redstone_torch",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "redstone",
+    "item2": "stick"
+  },
+
+  {
+    "result": "golden_apple",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "gold_ingot",
+    "item2": "apple"
+  },
+
+  {
+    "result": "golden_carrot",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "gold_nugget",
+    "item2": "carrot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "pumpkin_pie",
+    "count": "2",
+    "table1": "ABC",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "pumpkin",
+    "item2": "suger",
+    "item3": "egg"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "mushroom_stew",
+    "count": "1",
+    "table1": "ABC",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "bowl",
+    "item2": "brown_mushroom",
+    "item3": "red_mushroom"
+  },
+
+  {
+    "result": "fishing_rod",
+    "count": "1",
+    "table1": "OOB",
+    "table2": "OBA",
+    "table3": "BOA",
+    "item1": "string",
+    "item2": "stick"
+  },
+
+  {
+    "result": "grass_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "grass",
+    "item2": "stick"
+  },
+
+  {
+    "result": "wooden_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "stick"
+  },
+
+  {
+    "result": "stone_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "cobblestone",
+    "item2": "stick"
+  },
+
+  {
+    "result": "iron_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "iron_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "golden_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "gold_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "diamond_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "diamond",
+    "item2": "stick"
+  },
+
+  {
+    "result": "steel_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "steel_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "bronze_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "bronze_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "sliver_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "sliver_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "lead_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "lead_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "tin_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "tin_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "copper_axe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "ABO",
+    "table3": "OBO",
+    "item1": "copper_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "grass_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "grass",
+    "item2": "stick"
+  },
+
+  {
+    "result": "wooden_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "stick"
+  },
+
+  {
+    "result": "stone_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "cobblestone",
+    "item2": "stick"
+  },
+
+  {
+    "result": "iron_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "iron_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "golden_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "gold_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "diamond_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "diamond",
+    "item2": "stick"
+  },
+
+  {
+    "result": "steel_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "steel_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "bronze_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "bronze_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "sliver_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "sliver_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "lead_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "lead_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "tin_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "tin_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "copper_pickaxe",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "copper_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "grass_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "grass",
+    "item2": "stick"
+  },
+
+  {
+    "result": "wooden_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "stick"
+  },
+
+  {
+    "result": "stone_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "cobblestone",
+    "item2": "stick"
+  },
+
+  {
+    "result": "copper_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "copper_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_copper_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "copper_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "tin_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "tin_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_tin_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "tin_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "iron_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "iron_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_iron_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "iron_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "lead_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "lead_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_lead_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "lead_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "golden_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "gold_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_golden_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "gold_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "sliver_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "sliver_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_sliver_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "sliver_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "bronze_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "bronze_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_bronze_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "bronze_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "steel_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "steel_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_steel_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "steel_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "result": "diamond_sword",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "diamond",
+    "item2": "stick"
+  },
+
+  {
+    "result": "super_diamond_sword",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "BBO",
+    "item1": "diamond",
+    "item2": "stick"
+  },
+
+  {
+    "result": "stone_hoe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "OBO",
+    "table3": "OBO",
+    "item1": "cobblestone",
+    "item2": "stick"
+  },
+
+  {
+    "result": "wooden_hoe",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "OBO",
+    "table3": "OBO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "stick"
+  },
+
+  {
+    "result": "wire_cutter",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "BOB",
+    "item1": "iron_ingot",
+    "item2": "stick"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "lighter",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "iron_ingot",
+    "item2": "flint"
+  },
+
+  {
+    "result": "shears",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "AOO",
+    "table3": "OOO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "cross_bow",
+    "count": "1",
+    "table1": "BAB",
+    "table2": "CAC",
+    "table3": "OBO",
+    "item1": "iron_ingot",
+    "item2": "stick",
+    "item3": "string"
+  },
+
+  {
+    "result": "shot_bow",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "CDC",
+    "table3": "OBO",
+    "item1": "gold_ingot",
+    "item2": "stick",
+    "item3": "string",
+    "item4": "cross_bow"
+  },
+
+  {
+    "result": "shot_bow",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "CDC",
+    "table3": "OBO",
+    "item1": "sliver_ingot",
+    "item2": "stick",
+    "item3": "string",
+    "item4": "cross_bow"
+  },
+
+  {
+    "result": "super_cross_bow",
+    "count": "1",
+    "table1": "EAE",
+    "table2": "CDC",
+    "table3": "OBO",
+    "item1": "diamond",
+    "item2": "stick",
+    "item3": "string",
+    "item4": "cross_bow",
+    "item5": "iron_ingot"
+  },
+
+  {
+    "result": "wooden_bow",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "AOB",
+    "table3": "OAB",
+    "item1": "stick",
+    "item2": "string"
+  },
+
+  {
+    "result": "wooden_arrow",
+    "count": "6",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "COO",
+    "item1": "flint",
+    "item2": "stick",
+    "item3": "feather"
+  },
+
+  {
+    "result": "wooden_arrow",
+    "count": "6",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "COO",
+    "item1": "flint",
+    "item2": "stick",
+    "item3": "gray_feather"
+  },
+
+  {
+    "result": "wooden_arrow",
+    "count": "16",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "COO",
+    "item1": "iron_ingot",
+    "item2": "stick",
+    "item3": "feather"
+  },
+
+  {
+    "result": "wooden_arrow",
+    "count": "16",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "COO",
+    "item1": "iron_ingot",
+    "item2": "stick",
+    "item3": "gray_feather"
+  },
+
+  {
+    "result": "leather_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "leather"
+  },
+
+  {
+    "result": "iron_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "golden_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "gold_ingot"
+  },
+
+  {
+    "result": "diamond_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "diamond"
+  },
+
+  {
+    "result": "bronze_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "bronze_ingot"
+  },
+
+  {
+    "result": "copper_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "copper_ingot"
+  },
+
+  {
+    "result": "lead_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "lead_ingot"
+  },
+
+  {
+    "result": "sliver_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "sliver_ingot"
+  },
+
+  {
+    "result": "steel_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "steel_ingot"
+  },
+
+  {
+    "result": "tin_helmet",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "tin_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "nether_helmet",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diamond_helmet",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "result": "leather_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "leather"
+  },
+
+  {
+    "result": "iron_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "golden_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "gold_ingot"
+  },
+
+  {
+    "result": "diamond_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "diamond"
+  },
+
+  {
+    "result": "bronze_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "bronze_ingot"
+  },
+
+  {
+    "result": "copper_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "copper_ingot"
+  },
+
+  {
+    "result": "lead_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "lead_ingot"
+  },
+
+  {
+    "result": "sliver_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "sliver_ingot"
+  },
+
+  {
+    "result": "steel_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "steel_ingot"
+  },
+
+  {
+    "result": "tin_chestplate",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "tin_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "nether_chestplate",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diamond_chestplate",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "result": "leather_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "leather"
+  },
+
+  {
+    "result": "iron_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "golden_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "gold_ingot"
+  },
+
+  {
+    "result": "diamond_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "diamond"
+  },
+
+  {
+    "result": "bronze_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "bronze_ingot"
+  },
+
+  {
+    "result": "copper_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "copper_ingot"
+  },
+
+  {
+    "result": "lead_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "lead_ingot"
+  },
+
+  {
+    "result": "sliver_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "sliver_ingot"
+  },
+
+  {
+    "result": "steel_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "steel_ingot"
+  },
+
+  {
+    "result": "tin_leggings",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "AOA",
+    "item1": "tin_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "nether_leggings",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diamond_leggings",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "result": "glistering_melon_slice",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "gold_nugget",
+    "item2": "melon_slice"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "fermented_spider_eye",
+    "count": "1",
+    "table1": "ABC",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "spider_eye",
+    "item2": "brown_mushroom",
+    "item3": "suger"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "magma_cream",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "blaze_powder",
+    "item2": "slimeball"
+  },
+
+  {
+    "result": "glass_bottle",
+    "count": "6",
+    "table1": "AOA",
+    "table2": "OAO",
+    "table3": "OOO",
+    "item1": "glass"
+  },
+
+  {
+    "result": "blaze_powder",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "blaze_rod"
+  },
+
+  {
+    "result": "brewing_stand",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "BBB",
+    "table3": "OOO",
+    "item1": "blaze_rod",
+    "item2": "cobblestone"
+  },
+
+  {
+    "result": "bucket_empty",
+    "count": "3",
+    "table1": "AOA",
+    "table2": "OAO",
+    "table3": "OOO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "fire_charge",
+    "count": "3",
+    "table1": "ABC",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "blaze_powder",
+    "item2": "coal",
+    "item3": "gunpowder"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "fire_charge",
+    "count": "3",
+    "table1": "ABC",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "blaze_powder",
+    "item2": "charcoal",
+    "item3": "gunpowder"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "ender_eye",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "blaze_powder",
+    "item2": "ender_pearl"
+  },
+
+  {
+    "result": "beacon",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "CCC",
+    "item1": "glass",
+    "item2": "nether_star",
+    "item3": "obsidian"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "book",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "paper",
+    "item2": "leather"
+  },
+
+  {
+    "result": "slimeball",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "slime_block"
+  },
+
+  {
+    "result": "paper",
+    "count": "3",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "sugar_cane"
+  },
+
+  {
+    "result": "iron_nugget",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "gold_nugget",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "gold_ingot"
+  },
+
+  {
+    "result": "dye_white",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "bone_meal"
+  },
+
+  {
+    "result": "dye_black",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "ink_sac"
+  },
+
+  {
+    "result": "dye_blue",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "lapis_lazuli"
+  },
+
+  {
+    "result": "dye_brown",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "cocoa_bean"
+  },
+
+  {
+    "result": "dye_light_gray",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "azure_bluet"
+  },
+
+  {
+    "result": "dye_light_gray",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "white_tulip"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_light_gray",
+    "count": "3",
+    "table1": "ABB",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_black",
+    "item2": "dye_white"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_light_gray",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_gray",
+    "item2": "dye_white"
+  },
+
+  {
+    "result": "dye_yellow",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dandelion"
+  },
+
+  {
+    "result": "dye_yellow",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "sunflower"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_lime",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_green",
+    "item2": "dye_white"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_lime",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_green",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "dye_pink",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "pink_tulip"
+  },
+
+  {
+    "result": "dye_pink",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "peony"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_pink",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_red",
+    "item2": "dye_white"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_pink",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_red",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "dye_red",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "poppy"
+  },
+
+  {
+    "result": "dye_red",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "red_tulip"
+  },
+
+  {
+    "result": "dye_red",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "rose_bush"
+  },
+
+  {
+    "result": "suger",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "sugar_cane"
+  },
+
+  {
+    "result": "pumpkin_seed",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "pumpkin"
+  },
+
+  {
+    "result": "lapis_lazuli",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_lapis"
+  },
+
+  {
+    "result": "emerald",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_emerald"
+  },
+
+  {
+    "result": "diamond",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_diamond"
+  },
+
+  {
+    "result": "gold_ingot",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_gold"
+  },
+
+  {
+    "result": "gold_ingot",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "gold_nugget"
+  },
+
+  {
+    "result": "melon_seed",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "melon_slice"
+  },
+
+  {
+    "result": "iron_ingot",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_iron"
+  },
+
+  {
+    "result": "iron_ingot",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "iron_nugget"
+  },
+
+  {
+    "result": "coal",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_coal"
+  },
+
+  {
+    "result": "wheat",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "hay_bale"
+  },
+
+  {
+    "result": "dye_orange",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "orange_tulip"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_orange",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_red",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_gray",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_black",
+    "item2": "dye_white"
+  },
+
+  {
+    "result": "dye_magenta",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "allium"
+  },
+
+  {
+    "result": "dye_magenta",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "lilac"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_magenta",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_purple",
+    "item2": "dye_pink"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_magenta",
+    "count": "3",
+    "table1": "ABC",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_blue",
+    "item2": "dye_red",
+    "item3": "dye_pink"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_magenta",
+    "count": "4",
+    "table1": "ABB",
+    "table2": "COO",
+    "table3": "OOO",
+    "item1": "dye_blue",
+    "item2": "dye_red",
+    "item3": "dye_white"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_purple",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_blue",
+    "item2": "dye_red"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_purple",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "lapis_lazuli",
+    "item2": "dye_red"
+  },
+
+  {
+    "result": "bone_meal",
+    "count": "3",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "bone"
+  },
+
+  {
+    "result": "bone_meal",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "bone_block"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_cyan",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_blue",
+    "item2": "dye_green"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_cyan",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "lapis_lazuli",
+    "item2": "dye_green"
+  },
+
+  {
+    "result": "dye_light_blue",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "blue_orchid"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_light_blue",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dye_blue",
+    "item2": "dye_white"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "dye_light_blue",
+    "count": "2",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "lapis_lazuli",
+    "item2": "dye_white"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "netherite_ingot",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABB",
+    "table3": "BBO",
+    "item1": "netherite_scrap",
+    "item2": "gold_ingot"
+  },
+
+  {
+    "result": "block_netherite",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "netherite_ingot"
+  },
+
+  {
+    "result": "netherite_ingot",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_netherite"
+  },
+
+  {
+    "result": "dried_kelp_block",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "dried_kelp"
+  },
+
+  {
+    "result": "dried_kelp",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "dried_kelp_block"
+  },
+
+  {
+    "result": "block_quartz",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "quartz"
+  },
+
+  {
+    "result": "quartz",
+    "count": "9",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "block_quartz"
+  },
+
+  {
+    "result": "stained_glass_white",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_white"
+  },
+
+  {
+    "result": "stained_glass_orange",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_orange"
+  },
+
+  {
+    "result": "stained_glass_magenta",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_magenta"
+  },
+
+  {
+    "result": "stained_glass_light_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_light_blue"
+  },
+
+  {
+    "result": "stained_glass_yellow",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "result": "stained_glass_lime",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_lime"
+  },
+
+  {
+    "result": "stained_glass_pink",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_pink"
+  },
+
+  {
+    "result": "stained_glass_gray",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_gray"
+  },
+
+  {
+    "result": "stained_glass_light_gray",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_light_gray"
+  },
+
+  {
+    "result": "stained_glass_cyan",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_cyan"
+  },
+
+  {
+    "result": "stained_glass_purple",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_purple"
+  },
+
+  {
+    "result": "stained_glass_blue",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_blue"
+  },
+
+  {
+    "result": "stained_glass_brown",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_brown"
+  },
+
+  {
+    "result": "stained_glass_green",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_green"
+  },
+
+  {
+    "result": "stained_glass_red",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_red"
+  },
+
+  {
+    "result": "stained_glass_black",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "group1": "GROUP_GLASS",
+    "item2": "dye_black"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_orange",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_orange"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_magenta",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_magenta"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_light_blue",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_light_blue"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_yellow",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_lime",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_lime"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_pink",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_pink"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_gray",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_gray"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_light_gray",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_light_gray"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_cyan",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_cyan"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_purple",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_purple"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_blue",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_blue"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_brown",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_brown"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_green",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_green"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_red",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_red"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "wooden_bed_black",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_bed_white",
+    "item2": "dye_black"
+  },
+
+  {
+    "result": "wooden_bed_white",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_white"
+  },
+
+  {
+    "result": "wooden_bed_orange",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_orange"
+  },
+
+  {
+    "result": "wooden_bed_magenta",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_magenta"
+  },
+
+  {
+    "result": "wooden_bed_light_blue",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_light_blue"
+  },
+
+  {
+    "result": "wooden_bed_yellow",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_yellow"
+  },
+
+  {
+    "result": "wooden_bed_lime",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_lime"
+  },
+
+  {
+    "result": "wooden_bed_pink",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_pink"
+  },
+
+  {
+    "result": "wooden_bed_gray",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_gray"
+  },
+
+  {
+    "result": "wooden_bed_light_gray",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_light_gray"
+  },
+
+  {
+    "result": "wooden_bed_cyan",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_cyan"
+  },
+
+  {
+    "result": "wooden_bed_purple",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_purple"
+  },
+
+  {
+    "result": "wooden_bed_blue",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_blue"
+  },
+
+  {
+    "result": "wooden_bed_brown",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_brown"
+  },
+
+  {
+    "result": "wooden_bed_green",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_green"
+  },
+
+  {
+    "result": "wooden_bed_red",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_red"
+  },
+
+  {
+    "result": "wooden_bed_black",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "AAA",
+    "table3": "OOO",
+    "group1": "GROUP_WOODEN_PLANK",
+    "item2": "wool_black"
+  },
+
+  {
+    "result": "jack_o_lantern",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "pumpkin_carved",
+    "item2": "torch"
+  },
+
+  {
+    "result": "pumpkin_helmet",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "pumpkin_carved"
+  },
+
+  {
+    "result": "shulker_box",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "AOO",
+    "item1": "shulker_shell",
+    "item2": "chest"
+  },
+
+  {
+    "result": "lantern",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "BAB",
+    "table3": "BBB",
+    "item1": "torch",
+    "item2": "iron_nugget"
+  },
+
+  {
+    "result": "barrel",
+    "count": "1",
+    "table1": "BAB",
+    "table2": "BOB",
+    "table3": "BAB",
+    "group1": "GROUP_WOODEN_PLATFORM",
+    "group2": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "campfire",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "coal",
+    "item2": "stick",
+    "group3": "GROUP_WOOD"
+  },
+
+  {
+    "result": "campfire",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "charcoal",
+    "item2": "stick",
+    "group3": "GROUP_WOOD"
+  },
+
+  {
+    "result": "campfire",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "coal",
+    "item2": "stick",
+    "group3": "GROUP_WOOD_STRIPPED"
+  },
+
+  {
+    "result": "campfire",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "charcoal",
+    "item2": "stick",
+    "group3": "GROUP_WOOD_STRIPPED"
+  },
+
+  {
+    "result": "clay_block",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "clay"
+  },
+
+  {
+    "result": "clay",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "clay_block"
+  },
+
+  {
+    "result": "flower_pot",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "OAO",
+    "table3": "OOO",
+    "item1": "red_brick"
+  },
+
+  {
+    "result": "flower_pot_large",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AOA",
+    "table3": "OAO",
+    "item1": "red_brick"
+  },
+
+  {
+    "result": "brick",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "red_brick"
+  },
+
+  {
+    "result": "cookie",
+    "count": "8",
+    "table1": "ABA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wheat",
+    "item2": "cocoa_bean"
+  },
+
+  {
+    "result": "trapped_chest",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "OBO",
+    "item1": "chest",
+    "item2": "redstone"
+  },
+
+  {
+    "result": "cake",
+    "count": "1",
+    "table1": "BBB",
+    "table2": "CAC",
+    "table3": "DDD",
+    "item1": "egg",
+    "item2": "bucket_milk",
+    "item3": "suger",
+    "item4": "wheat",
+    "backItem": "bucket_empty",
+    "backCount": "3"
+  },
+
+  {
+    "result": "cake_piece",
+    "count": "8",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "cake"
+  },
+
+  {
+    "result": "chair_oak",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "oak_plank"
+  },
+
+  {
+    "result": "chair_spruce",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "spruce_plank"
+  },
+
+  {
+    "result": "chair_birch",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "birch_plank"
+  },
+
+  {
+    "result": "chair_jungle",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "jungle_plank"
+  },
+
+  {
+    "result": "chair_acacia",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "acacia_plank"
+  },
+
+  {
+    "result": "chair_dark_oak",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "dark_oak_plank"
+  },
+
+  {
+    "result": "chair_palm",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "palm_plank"
+  },
+
+  {
+    "result": "chair_volcano",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "volcano_plank"
+  },
+
+  {
+    "result": "chair_tainted",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "tainted_plank"
+  },
+
+  {
+    "result": "chair_nether",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "AAA",
+    "table3": "AOA",
+    "item1": "nether_brick"
+  },
+
+  {
+    "result": "table_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "oak_plank"
+  },
+
+  {
+    "result": "table_spruce",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "spruce_plank"
+  },
+
+  {
+    "result": "table_birch",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "birch_plank"
+  },
+
+  {
+    "result": "table_jungle",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "jungle_plank"
+  },
+
+  {
+    "result": "table_acacia",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "acacia_plank"
+  },
+
+  {
+    "result": "table_dark_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "dark_oak_plank"
+  },
+
+  {
+    "result": "table_palm",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "palm_plank"
+  },
+
+  {
+    "result": "table_volcano",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "volcano_plank"
+  },
+
+  {
+    "result": "table_tainted",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "tainted_plank"
+  },
+
+  {
+    "result": "table_nether",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AOA",
+    "table3": "OOO",
+    "item1": "nether_brick"
+  },
+
+  {
+    "result": "bookcase_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "oak_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_spruce",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "spruce_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_birch",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "birch_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_jungle",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "jungle_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_acacia",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "acacia_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_dark_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "dark_oak_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_palm",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "palm_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_volcano",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "volcano_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_tainted",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "tainted_plank",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "bookcase_nether",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BBB",
+    "table3": "AAA",
+    "item1": "nether_brick",
+    "item2": "book_block"
+  },
+
+  {
+    "result": "cabinet_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "oak_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_spruce",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "spruce_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_birch",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "birch_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_jungle",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "jungle_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_acacia",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "acacia_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_dark_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "dark_oak_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_palm",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "palm_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_volcano",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "volcano_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_tainted",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "tainted_plank",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cabinet_nether",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "nether_brick",
+    "item2": "chest"
+  },
+
+  {
+    "result": "bench_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "oak_plank",
+    "item2": "platform_oak"
+  },
+
+  {
+    "result": "bench_spruce",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "spruce_plank",
+    "item2": "platform_spruce"
+  },
+
+  {
+    "result": "bench_birch",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "birch_plank",
+    "item2": "platform_birch"
+  },
+
+  {
+    "result": "bench_jungle",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "jungle_plank",
+    "item2": "platform_jungle"
+  },
+
+  {
+    "result": "bench_acacia",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "acacia_plank",
+    "item2": "platform_acacia"
+  },
+
+  {
+    "result": "bench_dark_oak",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "dark_oak_plank",
+    "item2": "platform_dark_oak"
+  },
+
+  {
+    "result": "bench_palm",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "palm_plank",
+    "item2": "platform_palm"
+  },
+
+  {
+    "result": "bench_volcano",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "volcano_plank",
+    "item2": "platform_volcano"
+  },
+
+  {
+    "result": "bench_tainted",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "tainted_plank",
+    "item2": "platform_tainted"
+  },
+
+  {
+    "result": "bench_nether",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "BOB",
+    "table3": "OOO",
+    "item1": "nether_brick",
+    "item2": "platform_nether_brick"
+  },
+
+  {
+    "result": "brown_mushroom",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "large_brown_mushroom"
+  },
+
+  {
+    "result": "red_mushroom",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "large_red_mushroom"
+  },
+
+  {
+    "result": "poison_mushroom",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "large_poison_mushroom"
+  },
+
+  {
+    "result": "glowing_mushroom",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "ABA",
+    "table3": "OAO",
+    "item1": "glowstone_dust",
+    "item2": "red_mushroom"
+  },
+
+  {
+    "result": "glowing_mushroom",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "ABA",
+    "table3": "OAO",
+    "item1": "glowstone_dust",
+    "item2": "brown_mushroom"
+  },
+
+  {
+    "result": "snow_brick",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "snow"
+  },
+
+  {
+    "result": "ice_brick",
+    "count": "4",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "ice_cobblestone"
+  },
+
+  {
+    "result": "red_mushroom",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "red_mushroom_block"
+  },
+
+  {
+    "result": "brown_mushroom",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "brown_mushroom_block"
+  },
+
+  {
+    "result": "rotten_flesh",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "AAA",
+    "item1": "flesh_stone"
+  },
+
+  {
+    "result": "stone",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "flesh_dirt",
+    "item2": "flesh_stone"
+  },
+
+  {
+    "result": "dirt",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "flesh_dirt",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "farmland",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "flesh_gut",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "stone",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "tainted_stone",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "farmland",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "tainted_dirt",
+    "item2": "bone_meal"
+  },
+
+  {
+    "result": "iron_bar",
+    "count": "32",
+    "table1": "AAA",
+    "table2": "AAA",
+    "table3": "OOO",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "magma_block",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "magma_cream"
+  },
+
+  {
+    "result": "stone_chest",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "cobblestone",
+    "item2": "chest"
+  },
+
+  {
+    "result": "cauldron",
+    "count": "1",
+    "table1": "AOA",
+    "table2": "AOA",
+    "table3": "AAA",
+    "item1": "iron_ingot"
+  },
+
+  {
+    "result": "candle",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "torch",
+    "item2": "iron_ingot"
+  },
+
+  {
+    "result": "candle_holder",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OBO",
+    "table3": "BBB",
+    "item1": "candle",
+    "item2": "iron_ingot"
+  },
+
+  {
+    "result": "nether_chest",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "ABA",
+    "table3": "OAO",
+    "item1": "nether_brick",
+    "item2": "chest"
+  },
+
+  {
+    "result": "door_nether",
+    "count": "3",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "AAO",
+    "item1": "nether_brick"
+  },
+
+  {
+    "result": "end_rod",
+    "count": "4",
+    "table1": "AOO",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "blaze_rod",
+    "item2": "popped_chorus_fruits"
+  },
+
+  {
+    "result": "daylight_sensor_inverted",
+    "count": "1",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "daylight_sensor"
+  },
+
+  {
+    "result": "fire_lamp",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "iron_ingot",
+    "item2": "torch",
+    "group3": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "nether_lamp",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "iron_ingot",
+    "item2": "red_torch",
+    "item3": "nether_brick"
+  },
+
+  {
+    "result": "chandeliers",
+    "count": "1",
+    "table1": "OCO",
+    "table2": "BAB",
+    "table3": "CCC",
+    "item1": "diamond",
+    "item2": "glowstone_dust",
+    "item3": "glass"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "red_torch",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "torch",
+    "item2": "dye_red"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "yellow_torch",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "torch",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "blue_torch",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "torch",
+    "item2": "dye_blue"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "green_torch",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "torch",
+    "item2": "dye_green"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "white_torch",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "torch",
+    "item2": "dye_white"
+  },
+
+  {
+    "result": "red_wire",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "redstone",
+    "item2": "string"
+  },
+
+  {
+    "result": "green_wire",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "red_wire",
+    "item2": "dye_green"
+  },
+
+  {
+    "result": "blue_wire",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "red_wire",
+    "item2": "dye_blue"
+  },
+
+  {
+    "result": "yellow_wire",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "red_wire",
+    "item2": "dye_yellow"
+  },
+
+  {
+    "result": "bread",
+    "count": "1",
+    "table1": "AAA",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wheat"
+  },
+
+  {
+    "result": "snow",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "snowball"
+  },
+
+  {
+    "result": "snowball",
+    "count": "2",
+    "table1": "AOO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "snow"
+  },
+
+  {
+    "result": "leather",
+    "count": "1",
+    "table1": "AAO",
+    "table2": "AAO",
+    "table3": "OOO",
+    "item1": "rabbit_hide"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "bronze_ingot",
+    "count": "2",
+    "table1": "ABB",
+    "table2": "BOO",
+    "table3": "OOO",
+    "item1": "tin_ingot",
+    "item2": "copper_ingot"
+  },
+
+  {
+    "result": "amethyst_staff",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "OCA",
+    "table3": "COO",
+    "item1": "lapis_lazuli",
+    "item2": "gold_ingot",
+    "item3": "iron_ingot"
+  },
+
+  {
+    "result": "amethyst_staff",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "OCA",
+    "table3": "COO",
+    "item1": "lapis_lazuli",
+    "item2": "gold_ingot",
+    "item3": "lead_ingot"
+  },
+
+  {
+    "result": "lighting_staff",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "OCA",
+    "table3": "COO",
+    "item1": "glowstone_dust",
+    "item2": "sliver_ingot",
+    "item3": "gold_ingot"
+  },
+
+  {
+    "result": "water_staff",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "OCA",
+    "table3": "COO",
+    "item1": "copper_ingot",
+    "item2": "bucket_water",
+    "item3": "iron_ingot"
+  },
+
+  {
+    "result": "ice_staff",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "OCA",
+    "table3": "COO",
+    "item1": "blue_ice",
+    "item2": "diamond",
+    "item3": "iron_ingot"
+  },
+
+  {
+    "result": "shadow_staff",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "OCA",
+    "table3": "COO",
+    "item1": "ender_pearl",
+    "item2": "diamond",
+    "item3": "sliver_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "nether_axe",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diamond_axe",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "nether_pickaxe",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diamond_pickaxe",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "nether_sword",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "diamond_sword",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "super_nether_sword",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "super_diamond_sword",
+    "item2": "netherite_ingot"
+  },
+
+  {
+    "result": "glow_ball",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "glowstone_dust",
+    "item2": "cobblestone"
+  },
+
+  {
+    "result": "lighting_bow",
+    "count": "1",
+    "table1": "BDC",
+    "table2": "AOC",
+    "table3": "BDC",
+    "item1": "gold_ingot",
+    "item2": "glowstone_dust",
+    "item3": "string",
+    "item4": "blaze_rod"
+  },
+
+  {
+    "result": "blood_bow",
+    "count": "1",
+    "table1": "BAC",
+    "table2": "AOC",
+    "table3": "BAC",
+    "item1": "copper_ingot",
+    "item2": "rotten_flesh",
+    "item3": "string"
+  },
+
+  {
+    "result": "blue_stone_bow",
+    "count": "1",
+    "table1": "BAC",
+    "table2": "AOC",
+    "table3": "BAC",
+    "item1": "diamond",
+    "item2": "lapis_lazuli",
+    "item3": "string"
+  },
+
+  {
+    "result": "ice_bow",
+    "count": "1",
+    "table1": "BDC",
+    "table2": "AOC",
+    "table3": "BDC",
+    "item1": "diamond",
+    "item2": "blue_ice",
+    "item3": "string",
+    "item4": "iron_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "lighting_arrow",
+    "count": "1",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "wooden_arrow",
+    "item2": "glowstone_dust"
+  },
+
+  {
+    "result": "star_arrow",
+    "count": "4",
+    "table1": "OAO",
+    "table2": "ABA",
+    "table3": "OAO",
+    "item1": "lighting_arrow",
+    "item2": "gold_nugget"
+  },
+
+  {
+    "result": "blood_arrow",
+    "count": "1",
+    "table1": "BOO",
+    "table2": "AOO",
+    "table3": "BOO",
+    "item1": "wooden_arrow",
+    "item2": "rotten_flesh"
+  },
+
+  {
+    "result": "blood_arrow",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "OBO",
+    "item1": "wooden_arrow",
+    "item2": "spider_eye"
+  },
+
+  {
+    "result": "ice_arrow",
+    "count": "4",
+    "table1": "OAO",
+    "table2": "ABA",
+    "table3": "OAO",
+    "item1": "wooden_arrow",
+    "item2": "ice_packed"
+  },
+
+  {
+    "result": "sword_arrow",
+    "count": "8",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wooden_arrow",
+    "item2": "shulker_shell"
+  },
+
+  {
+    "result": "sword_arrow",
+    "count": "16",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wooden_arrow",
+    "item2": "ender_pearl"
+  },
+
+  {
+    "result": "sword_arrow",
+    "count": "24",
+    "table1": "AAA",
+    "table2": "ABA",
+    "table3": "AAA",
+    "item1": "wooden_arrow",
+    "item2": "ender_eye"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "fire_bullet",
+    "count": "16",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "fire_charge",
+    "item2": "copper_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "fire_bullet",
+    "count": "16",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "fire_charge",
+    "item2": "tin_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "iron_bullet",
+    "count": "16",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "fire_charge",
+    "item2": "iron_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "iron_bullet",
+    "count": "32",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "fire_charge",
+    "item2": "steel_ingot"
+  },
+
+  {
+    "isSharpless": "1",
+    "result": "sliver_bullet",
+    "count": "16",
+    "table1": "ABO",
+    "table2": "OOO",
+    "table3": "OOO",
+    "item1": "fire_charge",
+    "item2": "sliver_ingot"
+  },
+
+  {
+    "result": "bomb",
+    "count": "1",
+    "table1": "CBC",
+    "table2": "BAB",
+    "table3": "CBC",
+    "item1": "fire_charge",
+    "item2": "gunpowder",
+    "item3": "sand"
+  },
+
+  {
+    "result": "bomb",
+    "count": "1",
+    "table1": "CBC",
+    "table2": "BAB",
+    "table3": "CBC",
+    "item1": "fire_charge",
+    "item2": "gunpowder",
+    "item3": "red_sand"
+  },
+
+  {
+    "result": "grenade",
+    "count": "3",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "OBO",
+    "item1": "bomb",
+    "item2": "sand"
+  },
+
+  {
+    "result": "grenade",
+    "count": "3",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "OBO",
+    "item1": "bomb",
+    "item2": "red_sand"
+  },
+
+  {
+    "result": "glow_bomb",
+    "count": "2",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "OBO",
+    "item1": "bomb",
+    "item2": "glowstone_dust"
+  },
+
+  {
+    "result": "boomerang",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "AOO",
+    "table3": "OAO",
+    "item1": "copper_ingot"
+  },
+
+  {
+    "result": "boomerang",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "AOO",
+    "table3": "OAO",
+    "item1": "tin_ingot"
+  },
+
+  {
+    "result": "wooden_boomerang",
+    "count": "1",
+    "table1": "OAO",
+    "table2": "AOO",
+    "table3": "OAO",
+    "group1": "GROUP_WOODEN_PLANK"
+  },
+
+  {
+    "result": "fire_boomerang",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "AOO",
+    "table3": "OAB",
+    "item1": "copper_ingot",
+    "item2": "blaze_rod"
+  },
+
+  {
+    "result": "fire_boomerang",
+    "count": "1",
+    "table1": "OAB",
+    "table2": "AOO",
+    "table3": "OAB",
+    "item1": "tin_ingot",
+    "item2": "blaze_rod"
+  },
+
+  {
+    "result": "rocket",
+    "count": "1",
+    "table1": "OBO",
+    "table2": "BAB",
+    "table3": "CAC",
+    "item1": "tnt",
+    "item2": "sliver_ingot",
+    "item3": "fire_charge"
+  }
+]

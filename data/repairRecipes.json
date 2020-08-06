@@ -1,0 +1,387 @@
+[
+  {
+    "tool": "leather_helmet",
+    "made": "leather",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "iron_helmet",
+    "made": "iron_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "golden_helmet",
+    "made": "gold_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "diamond_helmet",
+    "made": "diamond",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "bronze_helmet",
+    "made": "bronze_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "copper_helmet",
+    "made": "copper_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "lead_helmet",
+    "made": "lead_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "nether_helmet",
+    "made": "netherite_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "sliver_helmet",
+    "made": "sliver_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "steel_helmet",
+    "made": "steel_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "tin_helmet",
+    "made": "tin_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "leather_chestplate",
+    "made": "leather",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "iron_chestplate",
+    "made": "iron_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "golden_chestplate",
+    "made": "gold_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "diamond_chestplate",
+    "made": "diamond",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "bronze_chestplate",
+    "made": "bronze_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "copper_chestplate",
+    "made": "copper_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "lead_chestplate",
+    "made": "lead_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "nether_chestplate",
+    "made": "netherite_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "sliver_chestplate",
+    "made": "sliver_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "steel_chestplate",
+    "made": "steel_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "tin_chestplate",
+    "made": "tin_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "leather_leggings",
+    "made": "leather",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "iron_leggings",
+    "made": "iron_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "golden_leggings",
+    "made": "gold_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "diamond_leggings",
+    "made": "diamond",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "bronze_leggings",
+    "made": "bronze_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "copper_leggings",
+    "made": "copper_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "lead_leggings",
+    "made": "lead_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "nether_leggings",
+    "made": "netherite_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "sliver_leggings",
+    "made": "sliver_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "steel_leggings",
+    "made": "steel_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "tin_leggings",
+    "made": "tin_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "stone_axe",
+    "made": "cobblestone",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "iron_axe",
+    "made": "iron_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "golden_axe",
+    "made": "gold_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "diamond_axe",
+    "made": "diamond",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "steel_axe",
+    "made": "steel_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "bronze_axe",
+    "made": "bronze_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "sliver_axe",
+    "made": "sliver_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "lead_axe",
+    "made": "lead_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "tin_axe",
+    "made": "tin_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "copper_axe",
+    "made": "copper_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "nether_axe",
+    "made": "netherite_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "stone_pickaxe",
+    "made": "cobblestone",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "iron_pickaxe",
+    "made": "iron_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "golden_pickaxe",
+    "made": "gold_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "diamond_pickaxe",
+    "made": "diamond",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "steel_pickaxe",
+    "made": "steel_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "bronze_pickaxe",
+    "made": "bronze_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "sliver_pickaxe",
+    "made": "sliver_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "lead_pickaxe",
+    "made": "lead_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "tin_pickaxe",
+    "made": "tin_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "copper_pickaxe",
+    "made": "copper_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "nether_pickaxe",
+    "made": "netherite_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "stone_sword",
+    "made": "cobblestone",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "copper_sword",
+    "made": "copper_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_copper_sword",
+    "made": "copper_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "tin_sword",
+    "made": "tin_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_tin_sword",
+    "made": "tin_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "iron_sword",
+    "made": "iron_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_iron_sword",
+    "made": "iron_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "lead_sword",
+    "made": "lead_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_lead_sword",
+    "made": "lead_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "golden_sword",
+    "made": "gold_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_golden_sword",
+    "made": "gold_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "sliver_sword",
+    "made": "sliver_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_sliver_sword",
+    "made": "sliver_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "bronze_sword",
+    "made": "bronze_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_bronze_sword",
+    "made": "bronze_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "steel_sword",
+    "made": "steel_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_steel_sword",
+    "made": "steel_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "diamond_sword",
+    "made": "diamond",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_diamond_sword",
+    "made": "diamond",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "nether_sword",
+    "made": "netherite_ingot",
+    "repairRate": "0.25"
+  },
+  {
+    "tool": "super_nether_sword",
+    "made": "netherite_ingot",
+    "repairRate": "0.15"
+  },
+  {
+    "tool": "stone_hoe",
+    "made": "cobblestone",
+    "repairRate": "0.25"
+  }
+]

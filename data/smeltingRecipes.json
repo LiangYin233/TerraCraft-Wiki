@@ -1,0 +1,435 @@
+[
+
+  {
+    "resultId": "cooked_porkchop",
+    "resultCount": "1",
+    "inputId": "raw_porkchop",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "steak",
+    "resultCount": "1",
+    "inputId": "raw_beef",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "cooked_chicken",
+    "resultCount": "1",
+    "inputId": "raw_chicken",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "cooked_cod",
+    "resultCount": "1",
+    "inputId": "raw_cod",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "cooked_salmon",
+    "resultCount": "1",
+    "inputId": "raw_salmon",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "baked_potato",
+    "resultCount": "1",
+    "inputId": "potato",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "cooked_mutton",
+    "resultCount": "1",
+    "inputId": "raw_mutton",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "cooked_rabbit",
+    "resultCount": "1",
+    "inputId": "raw_rabbit",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "dried_kelp",
+    "resultCount": "1",
+    "inputId": "kelp",
+    "inputCount": "1",
+    "time": "60"
+  },
+
+  {
+    "resultId": "iron_ingot",
+    "resultCount": "1",
+    "inputId": "ore_iron",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "gold_ingot",
+    "resultCount": "1",
+    "inputId": "ore_gold",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "coal",
+    "resultCount": "1",
+    "inputId": "ore_coal",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "lapis_lazuli",
+    "resultCount": "1",
+    "inputId": "ore_lapis",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "diamond",
+    "resultCount": "1",
+    "inputId": "ore_diamond",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "quartz",
+    "resultCount": "1",
+    "inputId": "ore_nether_quartz",
+    "inputCount": "1",
+    "time": "60"
+  },
+
+  {
+    "resultId": "emerald",
+    "resultCount": "1",
+    "inputId": "ore_emerald",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "redstone",
+    "resultCount": "1",
+    "inputId": "ore_redstone",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "netherite_scrap",
+    "resultCount": "1",
+    "inputId": "ore_ancient_debris",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "sliver_ingot",
+    "resultCount": "1",
+    "inputId": "ore_sliver",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "lead_ingot",
+    "resultCount": "1",
+    "inputId": "ore_lead",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "tin_ingot",
+    "resultCount": "1",
+    "inputId": "ore_tin",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "copper_ingot",
+    "resultCount": "1",
+    "inputId": "ore_copper",
+    "inputCount": "3",
+    "time": "120"
+  },
+
+  {
+    "resultId": "steel_ingot",
+    "resultCount": "1",
+    "inputId": "iron_ingot",
+    "inputCount": "2",
+    "time": "240"
+  },
+
+  {
+    "resultId": "glass",
+    "resultCount": "1",
+    "inputId": "sand",
+    "inputCount": "1",
+    "time": "30"
+  },
+
+  {
+    "resultId": "glass",
+    "resultCount": "1",
+    "inputId": "red_sand",
+    "inputCount": "1",
+    "time": "30"
+  },
+
+  {
+    "resultId": "glass",
+    "resultCount": "1",
+    "inputId": "prismarine_mud",
+    "inputCount": "1",
+    "time": "480"
+  },
+
+  {
+    "resultId": "sandstone_smooth",
+    "resultCount": "1",
+    "inputId": "sandstone",
+    "inputCount": "1",
+    "time": "30"
+  },
+
+  {
+    "resultId": "red_sand_smooth",
+    "resultCount": "1",
+    "inputId": "red_sand_stone",
+    "inputCount": "1",
+    "time": "30"
+  },
+
+  {
+    "resultId": "stone",
+    "resultCount": "1",
+    "inputId": "cobblestone",
+    "inputCount": "1",
+    "time": "30"
+  },
+
+  {
+    "resultId": "red_brick",
+    "resultCount": "1",
+    "inputId": "clay",
+    "inputCount": "1",
+    "time": "30"
+  },
+
+  {
+    "resultId": "nether_brick",
+    "resultCount": "1",
+    "inputId": "netherrack",
+    "inputCount": "1",
+    "time": "60"
+  },
+
+  {
+    "resultId": "terracotta_pink",
+    "resultCount": "1",
+    "inputId": "clay_block",
+    "inputCount": "1",
+    "time": "60"
+  },
+
+  {
+    "resultId": "stone_brick_cracked",
+    "resultCount": "1",
+    "inputId": "stone_brick",
+    "inputCount": "1",
+    "time": "60"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_oak",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_spruce",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_birch",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_jungle",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_acacia",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_palm",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_volcano",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_tainted",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_dark_oak",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_oak",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_spruce",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_birch",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_jungle",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_acacia",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_dark_oak",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_palm",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_volcano",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "charcoal",
+    "resultCount": "1",
+    "inputId": "wood_stripped_tainted",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "dye_green",
+    "resultCount": "1",
+    "inputId": "sapling_cactus",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "sponge",
+    "resultCount": "1",
+    "inputId": "wet_sponge",
+    "inputCount": "1",
+    "time": "120"
+  },
+
+  {
+    "resultId": "popped_chorus_fruits",
+    "resultCount": "1",
+    "inputId": "chorus_fruit",
+    "inputCount": "1",
+    "time": "120"
+  }
+
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "oreId": "ore_iron",
+    "density": 500,
+    "radius": 4,
+    "startYi": 400,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_gold",
+    "density": 250,
+    "radius": 5,
+    "startYi": 1000,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_coal",
+    "density": 400,
+    "radius": 5,
+    "startYi": 400,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_diamond",
+    "density": 130,
+    "radius": 2,
+    "startYi": 1800,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_emerald",
+    "density": 150,
+    "radius": 2,
+    "startYi": 1000,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_lapis",
+    "density": 250,
+    "radius": 3,
+    "startYi": 1200,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_redstone",
+    "density": 750,
+    "radius": 4,
+    "startYi": 1800,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_copper",
+    "density": 600,
+    "radius": 4,
+    "startYi": 300,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_tin",
+    "density": 550,
+    "radius": 4,
+    "startYi": 300,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_lead",
+    "density": 450,
+    "radius": 4,
+    "startYi": 600,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_sliver",
+    "density": 700,
+    "radius": 4,
+    "startYi": 1200,
+    "endYi": 2560
+  },
+  {
+    "oreId": "ore_ancient_debris",
+    "density": 200,
+    "radius": 3,
+    "startYi": 2560,
+    "endYi": 3072
+  },
+  {
+    "oreId": "ore_nether_quartz",
+    "density": 500,
+    "radius": 4,
+    "startYi": 2560,
+    "endYi": 3072
+  }
+]

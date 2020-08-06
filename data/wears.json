@@ -1,0 +1,218 @@
+[
+  {
+    "leather_hat": {
+      "textureData": "assets\\textures\\player\\female\\leather\\hat.png",
+      "showHair": true
+    }
+  },
+  {
+    "leather_cloth": {
+      "textureData": "assets\\textures\\player\\female\\leather\\body.png"
+    }
+  },
+  {
+    "leather_pant": {
+      "textureData": "assets\\textures\\player\\female\\leather\\leg.png"
+    }
+  },
+  {
+    "iron_hat": {
+      "textureData": "assets\\textures\\player\\female\\iron\\hat.png"
+    }
+  },
+  {
+    "iron_cloth": {
+      "textureData": "assets\\textures\\player\\female\\iron\\body.png"
+    }
+  },
+  {
+    "iron_pant": {
+      "textureData": "assets\\textures\\player\\female\\iron\\leg.png"
+    }
+  },
+  {
+    "gold_hat": {
+      "textureData": "assets\\textures\\player\\female\\gold\\hat.png"
+    }
+  },
+  {
+    "gold_cloth": {
+      "textureData": "assets\\textures\\player\\female\\gold\\body.png"
+    }
+  },
+  {
+    "gold_pant": {
+      "textureData": "assets\\textures\\player\\female\\gold\\leg.png"
+    }
+  },
+  {
+    "diamond_hat": {
+      "textureData": "assets\\textures\\player\\female\\diamond\\hat.png"
+    }
+  },
+  {
+    "diamond_cloth": {
+      "textureData": "assets\\textures\\player\\female\\diamond\\body.png"
+    }
+  },
+  {
+    "diamond_pant": {
+      "textureData": "assets\\textures\\player\\female\\diamond\\leg.png"
+    }
+  },
+  {
+    "bronze_hat": {
+      "textureData": "assets\\textures\\player\\female\\bronze\\hat.png"
+    }
+  },
+  {
+    "bronze_cloth": {
+      "textureData": "assets\\textures\\player\\female\\bronze\\body.png"
+    }
+  },
+  {
+    "bronze_pant": {
+      "textureData": "assets\\textures\\player\\female\\bronze\\leg.png"
+    }
+  },
+  {
+    "copper_hat": {
+      "textureData": "assets\\textures\\player\\female\\copper\\hat.png"
+    }
+  },
+  {
+    "copper_cloth": {
+      "textureData": "assets\\textures\\player\\female\\copper\\body.png"
+    }
+  },
+  {
+    "copper_pant": {
+      "textureData": "assets\\textures\\player\\female\\copper\\leg.png"
+    }
+  },
+  {
+    "ironman_hat": {
+      "textureData": "assets\\textures\\player\\female\\ironman\\hat.png"
+    }
+  },
+  {
+    "ironman_cloth": {
+      "textureData": "assets\\textures\\player\\female\\ironman\\body.png"
+    }
+  },
+  {
+    "ironman_pant": {
+      "textureData": "assets\\textures\\player\\female\\ironman\\leg.png"
+    }
+  },
+  {
+    "lead_hat": {
+      "textureData": "assets\\textures\\player\\female\\lead\\hat.png"
+    }
+  },
+  {
+    "lead_cloth": {
+      "textureData": "assets\\textures\\player\\female\\lead\\body.png"
+    }
+  },
+  {
+    "lead_pant": {
+      "textureData": "assets\\textures\\player\\female\\lead\\leg.png"
+    }
+  },
+  {
+    "nano_hat": {
+      "textureData": "assets\\textures\\player\\female\\nano\\hat.png"
+    }
+  },
+  {
+    "nano_cloth": {
+      "textureData": "assets\\textures\\player\\female\\nano\\body.png"
+    }
+  },
+  {
+    "nano_pant": {
+      "textureData": "assets\\textures\\player\\female\\nano\\leg.png"
+    }
+  },
+  {
+    "nether_hat": {
+      "textureData": "assets\\textures\\player\\female\\nether\\hat.png"
+    }
+  },
+  {
+    "nether_cloth": {
+      "textureData": "assets\\textures\\player\\female\\nether\\body.png"
+    }
+  },
+  {
+    "nether_pant": {
+      "textureData": "assets\\textures\\player\\female\\nether\\leg.png"
+    }
+  },
+  {
+    "quantum_hat": {
+      "textureData": "assets\\textures\\player\\female\\quantum\\hat.png"
+    }
+  },
+  {
+    "quantum_cloth": {
+      "textureData": "assets\\textures\\player\\female\\quantum\\body.png"
+    }
+  },
+  {
+    "quantum_pant": {
+      "textureData": "assets\\textures\\player\\female\\quantum\\leg.png"
+    }
+  },
+  {
+    "sliver_hat": {
+      "textureData": "assets\\textures\\player\\female\\sliver\\hat.png"
+    }
+  },
+  {
+    "sliver_cloth": {
+      "textureData": "assets\\textures\\player\\female\\sliver\\body.png"
+    }
+  },
+  {
+    "sliver_pant": {
+      "textureData": "assets\\textures\\player\\female\\sliver\\leg.png"
+    }
+  },
+  {
+    "steel_hat": {
+      "textureData": "assets\\textures\\player\\female\\steel\\hat.png"
+    }
+  },
+  {
+    "steel_cloth": {
+      "textureData": "assets\\textures\\player\\female\\steel\\body.png"
+    }
+  },
+  {
+    "steel_pant": {
+      "textureData": "assets\\textures\\player\\female\\steel\\leg.png"
+    }
+  },
+  {
+    "tin_hat": {
+      "textureData": "assets\\textures\\player\\female\\tin\\hat.png"
+    }
+  },
+  {
+    "tin_cloth": {
+      "textureData": "assets\\textures\\player\\female\\tin\\body.png"
+    }
+  },
+  {
+    "tin_pant": {
+      "textureData": "assets\\textures\\player\\female\\tin\\leg.png"
+    }
+  },
+  {
+    "pumpkin_hat": {
+      "textureData": "assets\\textures\\player\\female\\pumpkin\\hat.png"
+    }
+  }
+]

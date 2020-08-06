@@ -1,0 +1,79 @@
+[
+  {
+    "skin_22": {
+      "isFemale": "1",
+      "headTexture": "assets\\textures\\player\\female\\skins\\22\\head.png",
+      "bodyTexture": "assets\\textures\\player\\female\\skins\\22\\body.png",
+      "legTexture": "assets\\textures\\player\\female\\skins\\22\\leg.png",
+      "hairTexture": "assets\\textures\\player\\female\\skins\\22\\hair.png",
+      "clothTexture": "assets\\textures\\player\\female\\skins\\22\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\female\\skins\\22\\pant.png"
+    }
+  },
+  {
+    "skin_33": {
+      "isFemale": "1",
+      "headTexture": "assets\\textures\\player\\female\\skins\\22\\head.png",
+      "bodyTexture": "assets\\textures\\player\\female\\skins\\22\\body.png",
+      "legTexture": "assets\\textures\\player\\female\\skins\\22\\leg.png",
+      "hairTexture": "assets\\textures\\player\\female\\skins\\33\\hair.png",
+      "clothTexture": "assets\\textures\\player\\female\\skins\\33\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\female\\skins\\33\\pant.png"
+    }
+  },
+  {
+    "skin_zk": {
+      "isFemale": "1",
+      "headTexture": "assets\\textures\\player\\female\\skins\\22\\head.png",
+      "bodyTexture": "assets\\textures\\player\\female\\skins\\22\\body.png",
+      "legTexture": "assets\\textures\\player\\female\\skins\\22\\leg.png",
+      "hairTexture": "assets\\textures\\player\\female\\skins\\zk\\hair.png",
+      "clothTexture": "assets\\textures\\player\\female\\skins\\zk\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\female\\skins\\zk\\pant.png"
+    }
+  },
+  {
+    "skin_ym": {
+      "isFemale": "1",
+      "headTexture": "assets\\textures\\player\\female\\skins\\22\\head.png",
+      "bodyTexture": "assets\\textures\\player\\female\\skins\\22\\body.png",
+      "legTexture": "assets\\textures\\player\\female\\skins\\22\\leg.png",
+      "hairTexture": "assets\\textures\\player\\female\\skins\\ym\\hair.png",
+      "clothTexture": "assets\\textures\\player\\female\\skins\\ym\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\female\\skins\\ym\\pant.png"
+    }
+  },
+  {
+    "skin_my": {
+      "isFemale": "1",
+      "headTexture": "assets\\textures\\player\\female\\skins\\22\\head.png",
+      "bodyTexture": "assets\\textures\\player\\female\\skins\\22\\body.png",
+      "legTexture": "assets\\textures\\player\\female\\skins\\22\\leg.png",
+      "hairTexture": "assets\\textures\\player\\female\\skins\\my\\hair.png",
+      "clothTexture": "assets\\textures\\player\\female\\skins\\my\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\female\\skins\\my\\pant.png"
+    }
+  },
+  {
+    "skin_plin": {
+      "isFemale": "1",
+      "headTexture": "assets\\textures\\player\\female\\skins\\22\\head.png",
+      "bodyTexture": "assets\\textures\\player\\female\\skins\\22\\body.png",
+      "legTexture": "assets\\textures\\player\\female\\skins\\22\\leg.png",
+      "hairTexture": "assets\\textures\\player\\female\\skins\\plin\\hair.png",
+      "clothTexture": "assets\\textures\\player\\female\\skins\\plin\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\female\\skins\\plin\\pant.png"
+    }
+  },
+  {
+    "skin_steve": {
+      "isFemale": "0",
+      "headTexture": "assets\\textures\\player\\male\\skins\\steve\\head.png",
+      "bodyTexture": "assets\\textures\\player\\male\\skins\\steve\\body.png",
+      "legTexture": "assets\\textures\\player\\male\\skins\\steve\\leg.png",
+      "hairTexture": "assets\\textures\\player\\male\\skins\\steve\\hair.png",
+      "clothTexture": "assets\\textures\\player\\male\\skins\\steve\\cloth.png",
+      "pantTexture": "assets\\textures\\player\\male\\skins\\steve\\pant.png"
+    }
+  }
+]

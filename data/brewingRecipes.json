@@ -1,0 +1,239 @@
+[
+  {
+    "result": "potion_awkward",
+    "potion": "potion_water",
+    "source": "nether_wart",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_swiftness",
+    "potion": "potion_awkward",
+    "source": "suger",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_swiftness_long",
+    "potion": "potion_swiftness",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_slowness",
+    "potion": "potion_swiftness",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_slowness_long",
+    "potion": "potion_slowness",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_leaping",
+    "potion": "potion_awkward",
+    "source": "rabbit_foot",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_leaping_long",
+    "potion": "potion_leaping",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_slowness",
+    "potion": "potion_leaping",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_healing",
+    "potion": "potion_awkward",
+    "source": "glistering_melon_slice",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_healing_super",
+    "potion": "potion_healing",
+    "source": "glowstone_dust",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_harming",
+    "potion": "potion_healing",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_harming_super",
+    "potion": "potion_harming",
+    "source": "glowstone_dust",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_poison",
+    "potion": "potion_awkward",
+    "source": "poison_mushroom",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_poison",
+    "potion": "potion_awkward",
+    "source": "spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_poison_long",
+    "potion": "potion_poison",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_harming",
+    "potion": "potion_poison",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_water_breathing",
+    "potion": "potion_awkward",
+    "source": "pufferfish",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_water_breathing_long",
+    "potion": "potion_water_breathing",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_fire_resistance",
+    "potion": "potion_awkward",
+    "source": "magma_cream",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_fire_resistance_long",
+    "potion": "potion_fire_resistance",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_night_vision",
+    "potion": "potion_awkward",
+    "source": "golden_carrot",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_night_vision_long",
+    "potion": "potion_night_vision",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_invisibility",
+    "potion": "potion_night_vision",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_invisibility_long",
+    "potion": "potion_invisibility",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_strength",
+    "potion": "potion_awkward",
+    "source": "blaze_powder",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_strength_long",
+    "potion": "potion_strength",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_weakness",
+    "potion": "potion_strength",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_regeneration",
+    "potion": "potion_awkward",
+    "source": "ghast_tear",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_regeneration_long",
+    "potion": "potion_regeneration",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_weakness",
+    "potion": "potion_regeneration",
+    "source": "fermented_spider_eye",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_weakness_long",
+    "potion": "potion_weakness",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_slow_falling",
+    "potion": "potion_awkward",
+    "source": "phantom_membrane",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_slow_falling_long",
+    "potion": "potion_slow_falling",
+    "source": "redstone",
+    "time": "1200"
+  },
+
+  {
+    "result": "potion_glowing",
+    "potion": "potion_awkward",
+    "source": "glowing_mushroom",
+    "time": "1200"
+  }
+]
