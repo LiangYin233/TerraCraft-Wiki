@@ -374,3 +374,129 @@
 友好的(friendly): 否
 
 经验值(exps): 7
+
+## 僵尸猪人
+![ZP](/textures/npc/zombie_pigman.png)
+
+类别(type): 怪物
+
+最大速度(maxSpeed): 1
+
+跳跃力(jumpForce): 9
+
+消失时间(disappearTime): 750
+
+健康值(health): 45
+
+防御力(defense): 10
+
+攻击力(attack): 14
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps): 5
+
+## 烈焰人
+![BLAZE](/textures/npc/blaze.png)
+
+类别(type): 怪物
+
+最大速度(maxSpeed): 1
+
+跳跃力(jumpForce): 9
+
+消失时间(disappearTime): 750
+
+健康值(health): 80
+
+防御力(defense): 6
+
+攻击力(attack): 18
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps):10
+
+## 溺尸
+![DROWNED](/textures/npc/drowned.png)
+
+类别(type): 怪物
+
+最大速度(maxSpeed): 1.5
+
+跳跃力(jumpForce): 9
+
+消失时间(disappearTime): 750
+
+健康值(health): 45
+
+防御力(defense): 6
+
+攻击力(attack): 14
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps): 5
+
+## 守卫者
+![GUARDIAN](/textures/npc/guardian.png)
+
+类别(type): 怪物
+
+最大速度(maxSpeed): 1
+
+跳跃力(jumpForce): 5
+
+消失时间(disappearTime): 750
+
+健康值(health): 100
+
+防御力(defense): 10
+
+攻击力(attack): 10
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps): 10
+
+## 恶魂
+![GHAST](/textures/npc/ghast.png)
+
+类别(type): 怪物
+
+最大速度(maxSpeed): 1
+
+跳跃力(jumpForce): 5
+
+消失时间(disappearTime): 750
+
+健康值(health): 80
+
+防御力(defense): 10
+
+攻击力(attack): 10
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps): 14
+

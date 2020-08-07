@@ -324,3 +324,78 @@
 友好的(friendly): 是
 
 经验值(exps): 3
+
+## 河豚
+![PF](/textures/npc/pufferfish.png)
+
+类别(type): 动物
+
+最大速度(maxSpeed): 2
+
+跳跃力(jumpForce): 6
+
+消失时间(disappearTime): 750
+
+健康值(health): 60
+
+防御力(defense): 10
+
+攻击力(attack): 10
+
+击退(knockBack): 4
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps): 5
+
+## 海豚
+![DOLPHIN](/textures/npc/dolphin.png)
+
+类别(type): 动物
+
+最大速度(maxSpeed): 2
+
+跳跃力(jumpForce): 12
+
+消失时间(disappearTime): 750
+
+健康值(health): 30
+
+防御力(defense): 3
+
+攻击力(attack): 1
+
+击退(knockBack): 0
+
+爬墙(climbWall): 否
+
+友好的(friendly): 是
+
+经验值(exps): 3
+
+## 狼
+![WOLF](/textures/npc/wolf.png)
+
+类别(type): 动物
+
+最大速度(maxSpeed): 6
+
+跳跃力(jumpForce): 8
+
+消失时间(disappearTime): 750
+
+健康值(health): 40
+
+防御力(defense): 5
+
+攻击力(attack): 5
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 是
+
+经验值(exps): 5

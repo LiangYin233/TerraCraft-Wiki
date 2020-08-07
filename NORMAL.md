@@ -224,3 +224,28 @@
 友好的(friendly): 否
 
 经验值(exps): 5
+
+## 末影人
+![ENDERMAN](/textures/npc/enderman.png)
+
+类别(type): 普通的怪物
+
+最大速度(maxSpeed): 2
+
+跳跃力(jumpForce): 8
+
+消失时间(disappearTime): 750
+
+健康值(health): 80
+
+防御力(defense): 9
+
+攻击力(attack): 18
+
+击退(knockBack): 5
+
+爬墙(climbWall): 否
+
+友好的(friendly): 否
+
+经验值(exps): 15
