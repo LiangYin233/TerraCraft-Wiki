@@ -19,9 +19,10 @@
 当然,请保证你的数据准确fork仓库修改后向[Github](https://github.com/LiangYin233/TerraCraft-Wiki)提交Pr
 
 ## Wiki更新进度
-TerraCraft Pre-Alpha 1.0.1.1，2020年8月5日更新
-
-完成了部分NPC的Wiki
+### 2020年8月5日更新
+完成了部分NPC的Wiki，当前最新版本：TerraCraft Pre-Alpha 1.0.1.1
+### 2020年8月24日更新
+添加了历史版本界面，当前最新版本：TerraCraft Pre-Alpha 1.0.2.1
 
 ## Wiki的贡献者
 - LiangYin
