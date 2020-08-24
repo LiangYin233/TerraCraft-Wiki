@@ -25,4 +25,4 @@ TerraCraft Pre-Alpha 1.0.1.1，2020年8月5日更新
 
 ## Wiki的贡献者
 - LiangYin
-- 还没有...
+- Histcat（github：JesseJeson）
